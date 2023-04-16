@@ -116,3 +116,9 @@ Visualiser.hpp
 ../EnvelopeFollowing/src/EnvelopeFollower.hpp
 /home/pi/SynaesthetiQ-demo-test/src/EnvelopeFollowing/src/EnvelopeFollower.hpp
 
+/home/pi/SynaesthetiQ-demo-test/src/main.cpp
+iostream
+-
+Visualiser/Visualiser.hpp
+/home/pi/SynaesthetiQ-demo-test/src/Visualiser/Visualiser.hpp
+
