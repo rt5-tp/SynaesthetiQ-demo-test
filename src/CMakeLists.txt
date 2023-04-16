@@ -1,14 +1,13 @@
 cmake_minimum_required(VERSION 3.0)
 
-project(PuppetMaster)
+project(Demo-test)
 
 set(AC SynaesthetiQ-audiocapture/src)
 set(LED SynaesthetiQ-LED-Library/src/SynaesthetiQ)
 set(EF EnvelopeFollowing/src)
 
-#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -fsanitize=address -fno-omit-frame-pointer")
-set(SOURCES main.cpp Visualiser/Visualiser.cpp ${LED}/synaesthetiq.cpp ${AC}/AudioCapture/PingPongBuffer.cpp ${AC}/AudioCapture/AudioCapture.cpp ${AC}/GenreClassification/GenreClassifier.cpp ${AC}/FFTProcessor.cpp ${EF}/EnvelopeFollower.cpp)
-find_package( CURL REQUIRED )
+set(SOURCES main.cpp Visualiser/Visualiser.cpp ${LED}/synaesthetiq.cpp ${AC}/AudioCapture/PingPongBuffer.cpp ${AC}/AudioCapture/AudioCapture.cpp ${AC}/GenreClassification/GenreClassifier.cpp ${AC}/FFTProcessor.cpp ${CMAKE_CURRENT_SOURCE_DIR}/${EF}/EnvelopeFollower.cpp)
+find_package(CURL REQUIRED)
 find_package(iir REQUIRED)
 
 add_executable(${PROJECT_NAME} ${SOURCES})
