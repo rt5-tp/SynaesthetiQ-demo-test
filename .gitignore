@@ -7,22 +7,19 @@ build/
 sonic/
 testing/
 
-src/CMakeFiles/
-src/CMakeFiles/CMakeOutput.log
-src/CMakeFiles/Makefile.cmake
 
 # Ignore CMake files
-CMakeLists.txt.user
-CMakeCache.txt
-CMakeFiles/
-CMakeScripts
-Testing
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-_deps
+src/CMakeLists.txt.user
+src/CMakeCache.txt
+src/CMakeFiles/
+src/CMakeScripts
+src/Testing
+src/Makefile
+src/cmake_install.cmake
+src/install_manifest.txt
+src/compile_commands.json
+src/CTestTestfile.cmake
+src/_deps
 
 # Ignore all .DS_Store files
 .DS_Store
