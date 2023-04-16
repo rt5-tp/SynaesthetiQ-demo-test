@@ -1,3 +1,0 @@
-/home/pi/SynaesthetiQ-demo-test/src/CMakeFiles/rebuild_cache.dir
-/home/pi/SynaesthetiQ-demo-test/src/CMakeFiles/edit_cache.dir
-/home/pi/SynaesthetiQ-demo-test/src/CMakeFiles/Demo-test.dir
