@@ -1,6 +1,11 @@
 # Prerequisites
 *.d
 *.wav
+
+
+src/CMakeCache.txt
+src/CmakeFiles
+
 # Compiled Object files
 *.slo
 *.lo
