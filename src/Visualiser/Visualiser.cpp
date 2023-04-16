@@ -28,50 +28,50 @@ Visualiser::Visualiser() : audioCapture(""), synaesthetiQ(), genreClassifier(), 
 }
 
 void Visualiser::visualise(){
-    Colour colour(10, 10, 10);
+    // Colour colour(10, 10, 10);
     
-    // if predictions have been made
-    if(predictions.size()>0){
+    // // if predictions have been made
+    // if(predictions.size()>0){
 
-        // Find genre with maximum certainty
-        std::string genre = "";
-        float max_certainty = 0;
-        for(auto prediction : predictions){
-            if(prediction.second>=max_certainty){
-                max_certainty = prediction.second;
-                genre = prediction.first;
-            }
-        }
+    //     // Find genre with maximum certainty
+    //     std::string genre = "";
+    //     float max_certainty = 0;
+    //     for(auto prediction : predictions){
+    //         if(prediction.second>=max_certainty){
+    //             max_certainty = prediction.second;
+    //             genre = prediction.first;
+    //         }
+    //     }
 
-        if(genre=="rock") {
-            colour.setBlue(155);
-            colour.setRed(50);
-        }
-        else if(genre=="pop") {
-            colour.setRed(150);
-        }
-        else if(genre=="blues") {
-            colour.setBlue(155);
-        }
-        else if(genre=="reggae"){
-            colour.setGreen(155);
-        }
-    }
+    //     if(genre=="rock") {
+    //         colour.setBlue(155);
+    //         colour.setRed(50);
+    //     }
+    //     else if(genre=="pop") {
+    //         colour.setRed(150);
+    //     }
+    //     else if(genre=="blues") {
+    //         colour.setBlue(155);
+    //     }
+    //     else if(genre=="reggae"){
+    //         colour.setGreen(155);
+    //     }
+    // }
 
-    short max_val = 0;
-    for(auto val : envelope_data){
-        if(val>max_val) max_val = val;
-    }
+    // short max_val = 0;
+    // for(auto val : envelope_data){
+    //     if(val>max_val) max_val = val;
+    // }
 
-    int led_val = 255.0*((double)max_val / 4000.0);
+    // int led_val = 255.0*((double)max_val / 4000.0);
 
-    std::cout << "Max_val: " << max_val << std::endl;
-    std::cout << "Led_val: " << led_val << std::endl;
+    // std::cout << "Max_val: " << max_val << std::endl;
+    // std::cout << "Led_val: " << led_val << std::endl;
 
-    colour.setRed(led_val%200);
-    colour.setGreen(led_val%200);
+    // colour.setRed(led_val%200);
+    // colour.setGreen(led_val%200);
 
 
-    synaesthetiQ.setMatrixColour(colour);
-    synaesthetiQ.render();
+    // synaesthetiQ.setMatrixColour(colour);
+    // synaesthetiQ.render();
 }

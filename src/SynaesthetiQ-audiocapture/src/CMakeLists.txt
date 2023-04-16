@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 project(SynaesthetiQ-AudioCapture)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -fsanitize=address -fno-omit-frame-pointer")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -fsanitize=address -fno-omit-frame-pointer -g")
 
 set(SOURCES main.cpp AudioCapture/PingPongBuffer.cpp AudioCapture/AudioCapture.cpp GenreClassification/GenreClassifier.cpp FFTProcessor.cpp)
 set(LOWRESFFT_SOURCES lowresfft_test.cpp AudioCapture/PingPongBuffer.cpp AudioCapture/AudioCapture.cpp GenreClassification/GenreClassifier.cpp FFTProcessor.cpp)
