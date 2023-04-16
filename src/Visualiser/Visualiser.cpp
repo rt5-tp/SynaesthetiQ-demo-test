@@ -14,7 +14,7 @@ std::vector<short> Visualiser::envelope_data;
 Visualiser::Visualiser() : audioCapture(""), synaesthetiQ(), genreClassifier(), fftProcessor(), envelopeFollower(44100,10){
     
     // data flowing into visualiser, which can be accessed in visualise()
-    genreClassifier.register_genre_callback(&Visualiser::genre_prediction_callback);
+    // genreClassifier.register_genre_callback(&Visualiser::genre_prediction_callback);
     fftProcessor.registerCallback(&Visualiser::fft_callback);
     envelopeFollower.registerCallback(&Visualiser::envelope_callback);
     
@@ -22,7 +22,7 @@ Visualiser::Visualiser() : audioCapture(""), synaesthetiQ(), genreClassifier(), 
     //        ||=> genreClassifier
     // audio =|| 
     //        ||=> fftProcessor     
-    audioCapture.register_callback(genreClassifier.audio_callback);
+    // audioCapture.register_callback(genreClassifier.audio_callback);
     audioCapture.register_callback(fftProcessor.audio_callback);
     audioCapture.register_callback(envelopeFollower.audio_callback);
 }
