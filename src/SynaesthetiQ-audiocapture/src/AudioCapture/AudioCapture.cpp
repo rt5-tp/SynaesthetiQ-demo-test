@@ -176,7 +176,7 @@ void AudioCapture::CaptureThreadFunction()
         if (buffer.size() > 2048)
         {
             std::cerr << "Buffer overflow" << std::endl;
-            return;
+            // return;
         }
 
         buffer_.add_data(buffer);
