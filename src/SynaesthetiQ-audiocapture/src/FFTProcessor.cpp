@@ -59,7 +59,7 @@ void FFTProcessor::registerLEDCallback(LEDCallback cb)
 
 void FFTProcessor::workerThread()
 {
-    std::cout << "Starting FFT thread" << std::endl;
+    // std::cout << "Starting FFT thread" << std::endl;
     while (true)
     {
 
@@ -111,7 +111,7 @@ void FFTProcessor::performFFT(const std::vector<double> &data)
     }
 
     fftw_free(out);
-    std::cout << "Triggering FFT Callbacks" << std::endl;
+    // std::cout << "Triggering FFT Callbacks" << std::endl;
     // Invoke the FFT callback function
     if (fftCallback)
     {
@@ -131,7 +131,7 @@ void FFTProcessor::performFFT(const std::vector<double> &data)
     double sampleRate = 44100;
     double binWidth = sampleRate / N;
     double frequency = maxIndex * binWidth;
-    std::cout << "Most prominent frequency: " << frequency << " Hz" << std::endl;
+    // std::cout << "Most prominent frequency: " << frequency << " Hz" << std::endl;
 }
 
 /**

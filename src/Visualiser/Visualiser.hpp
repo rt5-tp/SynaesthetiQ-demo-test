@@ -29,8 +29,8 @@ class Visualiser {
     }
 
     static void fft_LEDcallback(const std::vector<std::vector<bool>> & fftLED_data){
-        std::cout << "fft LED callback detected!" << std::endl;
-        std::cout << "size of data = " << fftLED_data.size() << std::endl;
+        // std::cout << "fft LED callback detected!" << std::endl;
+        // std::cout << "size of data = " << fftLED_data.size() << std::endl;
         Visualiser::fftLED_data = fftLED_data;
     }
 

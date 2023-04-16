@@ -10,6 +10,9 @@
 #include <cmath>
 #include <signal.h>
 #include <climits>
+#include <condition_variable>
+#include <mutex>
+
 
 #include <alsa/asoundlib.h>
 #include <fftw3.h>
@@ -43,6 +46,14 @@ public:
      */
     std::string prompt_device_selection();
 
+
+
+    // Thread, mutex, and condition variable for the capture thread
+    std::thread captureThread;
+    std::mutex captureMutex;
+    std::condition_variable captureCv;
+    bool captureReady;
+    
     ~AudioCapture();
 
 private:
@@ -62,6 +73,9 @@ private:
      * Passes audio data from the PingPongBuffer, which is typically 4096 bytes.
      */
     static void call_callbacks(const std::vector<short>& full_buffer, int);
+
+    void CaptureThreadFunction(); // Function to run the capturing loop in a separate thread
+
 
     std::ofstream audioFile;
     snd_pcm_t* handle;
