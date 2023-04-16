@@ -7,6 +7,10 @@ build/
 sonic/
 testing/
 
+src/CMakeFiles/
+src/CMakeFiles/CMakeOutput.log
+src/CMakeFiles/Makefile.cmake
+
 # Ignore CMake files
 CMakeLists.txt.user
 CMakeCache.txt
