@@ -4,6 +4,8 @@ std::vector<std::pair<std::string, float>> Visualiser::predictions;
 std::vector<double> Visualiser::fft_data;
 std::vector<short> Visualiser::envelope_data;
 
+std::vector<std::vector<bool>> Visualiser::fftLED_data;
+
 /* 
  * @brief Sets up callbacks
  * 
@@ -16,6 +18,8 @@ Visualiser::Visualiser() : audioCapture(""), synaesthetiQ(), genreClassifier(), 
     // data flowing into visualiser, which can be accessed in visualise()
     // genreClassifier.register_genre_callback(&Visualiser::genre_prediction_callback);
     fftProcessor.registerCallback(&Visualiser::fft_callback);
+    fftProcessor.registerLEDCallback(&Visualiser::fft_LEDcallback);
+
     envelopeFollower.registerCallback(&Visualiser::envelope_callback);
     
     // data flowing from audio into genreClassifer, fftProcessor

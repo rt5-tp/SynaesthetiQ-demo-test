@@ -59,6 +59,7 @@ void FFTProcessor::registerLEDCallback(LEDCallback cb)
 
 void FFTProcessor::workerThread()
 {
+    std::cout << "Starting FFT thread" << std::endl;
     while (true)
     {
 
@@ -110,7 +111,7 @@ void FFTProcessor::performFFT(const std::vector<double> &data)
     }
 
     fftw_free(out);
-
+    std::cout << "Triggering FFT Callbacks" << std::endl;
     // Invoke the FFT callback function
     if (fftCallback)
     {

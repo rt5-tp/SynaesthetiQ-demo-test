@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.0)
 
 project(Demo-test)
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
+
 set(AC SynaesthetiQ-audiocapture/src)
 set(LED SynaesthetiQ-LED-Library/src/SynaesthetiQ)
 set(EF EnvelopeFollowing/src)
