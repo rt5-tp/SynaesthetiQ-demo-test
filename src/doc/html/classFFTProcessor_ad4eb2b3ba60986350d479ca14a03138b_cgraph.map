@@ -1,4 +1,5 @@
 <map id="FFTProcessor::workerThread" name="FFTProcessor::workerThread">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,211,32"/>
-<area shape="rect" id="node2" href="$classFFTProcessor.html#a4ac8dce0e6b805f2731f34aa82f7956d" title=" " alt="" coords="259,5,449,32"/>
+<area shape="rect" id="node1" title="The worker thread function for FFT processing." alt="" coords="5,13,211,39"/>
+<area shape="rect" id="node2" href="$classFFTProcessor.html#a4ac8dce0e6b805f2731f34aa82f7956d" title="Performs FFT on the input data and calls the registered callback functions." alt="" coords="259,13,449,39"/>
+<area shape="rect" id="node3" href="$classFFTProcessor.html#ab5a72174002f8d0a181c7f8ed5b5e135" title="Converts FFT data into an LED matrix representation." alt="" coords="497,5,700,47"/>
 </map>

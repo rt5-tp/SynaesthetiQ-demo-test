@@ -1,4 +1,4 @@
 <map id="FFTProcessor::~FFTProcessor" name="FFTProcessor::~FFTProcessor">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,219,32"/>
-<area shape="rect" id="node2" href="$classFFTProcessor.html#affdb6b0b0f98fe05a656490fe3498dbe" title=" " alt="" coords="267,5,411,32"/>
+<area shape="rect" id="node1" title="Destructor for the FFTProcessor class." alt="" coords="5,5,219,32"/>
+<area shape="rect" id="node2" href="$classFFTProcessor.html#affdb6b0b0f98fe05a656490fe3498dbe" title="Stops the worker thread for FFT processing." alt="" coords="267,5,411,32"/>
 </map>

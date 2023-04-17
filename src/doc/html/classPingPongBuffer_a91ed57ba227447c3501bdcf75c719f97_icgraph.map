@@ -1,6 +1,6 @@
 <map id="PingPongBuffer::switch_buffer" name="PingPongBuffer::switch_buffer">
-<area shape="rect" id="node1" title="Switches current buffer out with the other, and resets its values." alt="" coords="740,5,911,47"/>
-<area shape="rect" id="node2" href="$classPingPongBuffer.html#a3e83626083eaf81e934b21f9de0ff94d" title="Function for adding data to the PingPongBuffer." alt="" coords="503,13,692,39"/>
-<area shape="rect" id="node3" href="$classAudioCapture.html#ab3896451a319def83bf57d0a8a3fde16" title="Callback function used to handle audio originating from hardware." alt="" coords="260,13,455,39"/>
+<area shape="rect" id="node1" title="Switches current buffer out with the other, and resets its values." alt="" coords="760,5,931,47"/>
+<area shape="rect" id="node2" href="$classPingPongBuffer.html#a3e83626083eaf81e934b21f9de0ff94d" title="Function for adding data to the PingPongBuffer." alt="" coords="523,13,712,39"/>
+<area shape="rect" id="node3" href="$classAudioCapture.html#aa6e59de9708f239a1d6404b7e9502c8d" title="Function to run the capturing loop in a separate thread." alt="" coords="260,5,475,47"/>
 <area shape="rect" id="node4" href="$classAudioCapture.html#a19c04e27f31f937ae0d062b2dc28f8d7" title="Constructor for this class." alt="" coords="5,13,212,39"/>
 </map>

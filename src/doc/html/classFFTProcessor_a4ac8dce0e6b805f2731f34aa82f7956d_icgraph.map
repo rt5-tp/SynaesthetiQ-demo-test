@@ -1,6 +1,6 @@
 <map id="FFTProcessor::performFFT" name="FFTProcessor::performFFT">
-<area shape="rect" id="node1" title=" " alt="" coords="704,5,895,32"/>
-<area shape="rect" id="node2" href="$classFFTProcessor.html#ad4eb2b3ba60986350d479ca14a03138b" title=" " alt="" coords="451,5,656,32"/>
-<area shape="rect" id="node3" href="$classFFTProcessor.html#a8dc43650e52d022abf6638b13c829d93" title=" " alt="" coords="256,5,403,32"/>
-<area shape="rect" id="node4" href="$classFFTProcessor.html#a24d77d4ee34a0df2a72cc1ff698f241d" title=" " alt="" coords="5,5,208,32"/>
+<area shape="rect" id="node1" title="Performs FFT on the input data and calls the registered callback functions." alt="" coords="704,5,895,32"/>
+<area shape="rect" id="node2" href="$classFFTProcessor.html#ad4eb2b3ba60986350d479ca14a03138b" title="The worker thread function for FFT processing." alt="" coords="451,5,656,32"/>
+<area shape="rect" id="node3" href="$classFFTProcessor.html#a8dc43650e52d022abf6638b13c829d93" title="Starts the worker thread for FFT processing." alt="" coords="256,5,403,32"/>
+<area shape="rect" id="node4" href="$classFFTProcessor.html#a24d77d4ee34a0df2a72cc1ff698f241d" title="Default constructor for the FFTProcessor class." alt="" coords="5,5,208,32"/>
 </map>

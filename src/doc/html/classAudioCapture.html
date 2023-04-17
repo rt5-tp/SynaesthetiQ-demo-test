@@ -66,6 +66,8 @@ $(function() {
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
@@ -75,7 +77,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>A wrapper around the asound library for capturing and processing audio.  
+<p>A wrapper around the asound library for capturing audio.  
  <a href="classAudioCapture.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="AudioCapture_8h_source.html">AudioCapture.h</a>&gt;</code></p>
@@ -84,7 +86,7 @@ Collaboration diagram for AudioCapture:</div>
 <div class="dyncontent">
 <div class="center"><img src="classAudioCapture__coll__graph.png" border="0" usemap="#aAudioCapture_coll__map" alt="Collaboration graph"/></div>
 <map name="aAudioCapture_coll__map" id="aAudioCapture_coll__map">
-<area shape="rect" title="A wrapper around the asound library for capturing and processing audio." alt="" coords="11,95,121,121"/>
+<area shape="rect" title="A wrapper around the asound library for capturing audio." alt="" coords="11,95,121,121"/>
 <area shape="rect" href="classPingPongBuffer.html" title="Special buffer calls callback when full." alt="" coords="5,5,127,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -109,14 +111,31 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a61dc26c4719aa7ef7cabfab8aed5e6a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor for this class.  <a href="classAudioCapture.html#a61dc26c4719aa7ef7cabfab8aed5e6a1">More...</a><br /></td></tr>
 <tr class="separator:a61dc26c4719aa7ef7cabfab8aed5e6a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ae00c9795e6d5869ada0b4714fe8eff60"><td class="memItemLeft" align="right" valign="top">std::thread&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioCapture.html#ae00c9795e6d5869ada0b4714fe8eff60">captureThread</a></td></tr>
+<tr class="separator:ae00c9795e6d5869ada0b4714fe8eff60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bdb57c2e08893f0078419f4f22ad9aa"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioCapture.html#a8bdb57c2e08893f0078419f4f22ad9aa">captureMutex</a></td></tr>
+<tr class="separator:a8bdb57c2e08893f0078419f4f22ad9aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bff04004db98d8416a95f1529ae1468"><td class="memItemLeft" align="right" valign="top">std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioCapture.html#a9bff04004db98d8416a95f1529ae1468">captureCv</a></td></tr>
+<tr class="separator:a9bff04004db98d8416a95f1529ae1468"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c39558d6f5aeb2687b02d5501305a34"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioCapture.html#a8c39558d6f5aeb2687b02d5501305a34">captureReady</a></td></tr>
+<tr class="separator:a8c39558d6f5aeb2687b02d5501305a34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aa6e59de9708f239a1d6404b7e9502c8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioCapture.html#aa6e59de9708f239a1d6404b7e9502c8d">CaptureThreadFunction</a> ()</td></tr>
+<tr class="memdesc:aa6e59de9708f239a1d6404b7e9502c8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to run the capturing loop in a separate thread.  <a href="classAudioCapture.html#aa6e59de9708f239a1d6404b7e9502c8d">More...</a><br /></td></tr>
+<tr class="separator:aa6e59de9708f239a1d6404b7e9502c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:ab3896451a319def83bf57d0a8a3fde16"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioCapture.html#ab3896451a319def83bf57d0a8a3fde16">MyCallback</a> (snd_async_handler_t *<a class="el" href="classAudioCapture.html#a8f1d20333821692c4be4b1280e0d8dfe">pcm_callback</a>)</td></tr>
 <tr class="memdesc:ab3896451a319def83bf57d0a8a3fde16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback function used to handle audio originating from hardware.  <a href="classAudioCapture.html#ab3896451a319def83bf57d0a8a3fde16">More...</a><br /></td></tr>
 <tr class="separator:ab3896451a319def83bf57d0a8a3fde16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0dbb758e257ac5bb1ef1e31e7cf5d22"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioCapture.html#ac0dbb758e257ac5bb1ef1e31e7cf5d22">call_callbacks</a> (const std::vector&lt; short &gt; &amp;full_buffer, int count)</td></tr>
-<tr class="memdesc:ac0dbb758e257ac5bb1ef1e31e7cf5d22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls all callback functions with audio data when <a class="el" href="classPingPongBuffer.html" title="Special buffer calls callback when full.">PingPongBuffer</a> is full.  <a href="classAudioCapture.html#ac0dbb758e257ac5bb1ef1e31e7cf5d22">More...</a><br /></td></tr>
-<tr class="separator:ac0dbb758e257ac5bb1ef1e31e7cf5d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a036ebae91f17657e3c155db68a686817"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAudioCapture.html#a036ebae91f17657e3c155db68a686817">call_callbacks</a> (const std::vector&lt; short &gt; &amp;full_buffer, int size)</td></tr>
+<tr class="memdesc:a036ebae91f17657e3c155db68a686817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls all callback functions with audio data when <a class="el" href="classPingPongBuffer.html" title="Special buffer calls callback when full.">PingPongBuffer</a> is full.  <a href="classAudioCapture.html#a036ebae91f17657e3c155db68a686817">More...</a><br /></td></tr>
+<tr class="separator:a036ebae91f17657e3c155db68a686817"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -145,7 +164,7 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:af6e56bdf9f60b338069101dfc60fe26e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A wrapper around the asound library for capturing and processing audio. </p>
+<div class="textblock"><p>A wrapper around the asound library for capturing audio. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a367a8ff1960c7e886ced71a2191057e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a367a8ff1960c7e886ced71a2191057e3">&#9670;&nbsp;</a></span>DataAvailableCallback</h2>
@@ -179,8 +198,7 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor for this class. </p>
-<p>Prompts user for audio device if not provided. Gets handle for audio device and sets up necessary callbacks.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Prompts user for audio device if not provided. Gets handle for audio device and sets up necessary callbacks. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">device_name</td><td>The name of the audio device to capture from. </td></tr>
   </table>
@@ -191,14 +209,15 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classAudioCapture_a19c04e27f31f937ae0d062b2dc28f8d7_cgraph.png" border="0" usemap="#aclassAudioCapture_a19c04e27f31f937ae0d062b2dc28f8d7_cgraph" alt=""/></div>
 <map name="aclassAudioCapture_a19c04e27f31f937ae0d062b2dc28f8d7_cgraph" id="aclassAudioCapture_a19c04e27f31f937ae0d062b2dc28f8d7_cgraph">
-<area shape="rect" title="Constructor for this class." alt="" coords="5,101,212,127"/>
-<area shape="rect" href="classAudioCapture.html#ac0dbb758e257ac5bb1ef1e31e7cf5d22" title="Calls all callback functions with audio data when PingPongBuffer is full." alt="" coords="287,5,428,47"/>
-<area shape="rect" href="classAudioCapture.html#ab3896451a319def83bf57d0a8a3fde16" title="Callback function used to handle audio originating from hardware." alt="" coords="260,71,455,98"/>
-<area shape="rect" href="classAudioCapture.html#a7d2b75c5c63c68d607711fdad95300ec" title="Prompts user to select audio device." alt="" coords="275,123,440,164"/>
-<area shape="rect" href="classPingPongBuffer.html#a59da3ea9fc7be1c803f31245a718034f" title="Sets the registered callback to the one provided." alt="" coords="268,188,447,229"/>
-<area shape="rect" href="classPingPongBuffer.html#a3e83626083eaf81e934b21f9de0ff94d" title="Function for adding data to the PingPongBuffer." alt="" coords="503,71,692,98"/>
-<area shape="rect" href="classPingPongBuffer.html#a91ed57ba227447c3501bdcf75c719f97" title="Switches current buffer out with the other, and resets its values." alt="" coords="741,31,911,72"/>
-<area shape="rect" href="classPingPongBuffer.html#a4f7da502016c0f826220a418793baa85" title="Calls the callback registered with the class with buffer data." alt="" coords="740,96,912,137"/>
+<area shape="rect" title="Constructor for this class." alt="" coords="5,137,212,163"/>
+<area shape="rect" href="classAudioCapture.html#a036ebae91f17657e3c155db68a686817" title="Calls all callback functions with audio data when PingPongBuffer is full." alt="" coords="297,5,438,47"/>
+<area shape="rect" href="classAudioCapture.html#aa6e59de9708f239a1d6404b7e9502c8d" title="Function to run the capturing loop in a separate thread." alt="" coords="260,71,475,112"/>
+<area shape="rect" href="classAudioCapture.html#ab3896451a319def83bf57d0a8a3fde16" title="Callback function used to handle audio originating from hardware." alt="" coords="270,137,465,163"/>
+<area shape="rect" href="classAudioCapture.html#a7d2b75c5c63c68d607711fdad95300ec" title="Prompts user to select audio device." alt="" coords="285,188,450,229"/>
+<area shape="rect" href="classPingPongBuffer.html#a59da3ea9fc7be1c803f31245a718034f" title="Sets the registered callback to the one provided." alt="" coords="278,253,457,295"/>
+<area shape="rect" href="classPingPongBuffer.html#a3e83626083eaf81e934b21f9de0ff94d" title="Function for adding data to the PingPongBuffer." alt="" coords="523,78,712,105"/>
+<area shape="rect" href="classPingPongBuffer.html#a91ed57ba227447c3501bdcf75c719f97" title="Switches current buffer out with the other, and resets its values." alt="" coords="761,37,931,79"/>
+<area shape="rect" href="classPingPongBuffer.html#a4f7da502016c0f826220a418793baa85" title="Calls the callback registered with the class with buffer data." alt="" coords="760,103,932,144"/>
 </map>
 </div>
 
@@ -224,8 +243,8 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac0dbb758e257ac5bb1ef1e31e7cf5d22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0dbb758e257ac5bb1ef1e31e7cf5d22">&#9670;&nbsp;</a></span>call_callbacks()</h2>
+<a id="a036ebae91f17657e3c155db68a686817"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a036ebae91f17657e3c155db68a686817">&#9670;&nbsp;</a></span>call_callbacks()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -243,7 +262,7 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>count</em>&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -259,20 +278,66 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Calls all callback functions with audio data when <a class="el" href="classPingPongBuffer.html" title="Special buffer calls callback when full.">PingPongBuffer</a> is full. </p>
-<p>This function reads iterates through all callbacks registered with 'register_callback'. Passes audio data from the <a class="el" href="classPingPongBuffer.html" title="Special buffer calls callback when full.">PingPongBuffer</a>, which is typically 4096 bytes.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>This function reads iterates through all callbacks registered with 'register_callback'. Passes audio data from the <a class="el" href="classPingPongBuffer.html" title="Special buffer calls callback when full.">PingPongBuffer</a>, which is typically 4096 bytes. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">full_buffer</td><td>The buffer containing the captured audio data. </td></tr>
-    <tr><td class="paramname">count</td><td>The number of samples in the buffer. </td></tr>
+    <tr><td class="paramname">full_buffer</td><td>A vector containing the audio data. </td></tr>
+    <tr><td class="paramname">size</td><td>The number of elements in the audio data vector. </td></tr>
   </table>
   </dd>
 </dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classAudioCapture_ac0dbb758e257ac5bb1ef1e31e7cf5d22_icgraph.png" border="0" usemap="#aclassAudioCapture_ac0dbb758e257ac5bb1ef1e31e7cf5d22_icgraph" alt=""/></div>
-<map name="aclassAudioCapture_ac0dbb758e257ac5bb1ef1e31e7cf5d22_icgraph" id="aclassAudioCapture_ac0dbb758e257ac5bb1ef1e31e7cf5d22_icgraph">
+<div class="center"><img src="classAudioCapture_a036ebae91f17657e3c155db68a686817_icgraph.png" border="0" usemap="#aclassAudioCapture_a036ebae91f17657e3c155db68a686817_icgraph" alt=""/></div>
+<map name="aclassAudioCapture_a036ebae91f17657e3c155db68a686817_icgraph" id="aclassAudioCapture_a036ebae91f17657e3c155db68a686817_icgraph">
 <area shape="rect" title="Calls all callback functions with audio data when PingPongBuffer is full." alt="" coords="260,5,401,47"/>
+<area shape="rect" href="classAudioCapture.html#a19c04e27f31f937ae0d062b2dc28f8d7" title="Constructor for this class." alt="" coords="5,13,212,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa6e59de9708f239a1d6404b7e9502c8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6e59de9708f239a1d6404b7e9502c8d">&#9670;&nbsp;</a></span>CaptureThreadFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioCapture::CaptureThreadFunction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function to run the capturing loop in a separate thread. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classAudioCapture_aa6e59de9708f239a1d6404b7e9502c8d_cgraph.png" border="0" usemap="#aclassAudioCapture_aa6e59de9708f239a1d6404b7e9502c8d_cgraph" alt=""/></div>
+<map name="aclassAudioCapture_aa6e59de9708f239a1d6404b7e9502c8d_cgraph" id="aclassAudioCapture_aa6e59de9708f239a1d6404b7e9502c8d_cgraph">
+<area shape="rect" title="Function to run the capturing loop in a separate thread." alt="" coords="5,39,220,80"/>
+<area shape="rect" href="classPingPongBuffer.html#a3e83626083eaf81e934b21f9de0ff94d" title="Function for adding data to the PingPongBuffer." alt="" coords="268,46,457,73"/>
+<area shape="rect" href="classPingPongBuffer.html#a91ed57ba227447c3501bdcf75c719f97" title="Switches current buffer out with the other, and resets its values." alt="" coords="506,5,677,47"/>
+<area shape="rect" href="classPingPongBuffer.html#a4f7da502016c0f826220a418793baa85" title="Calls the callback registered with the class with buffer data." alt="" coords="505,71,677,112"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classAudioCapture_aa6e59de9708f239a1d6404b7e9502c8d_icgraph.png" border="0" usemap="#aclassAudioCapture_aa6e59de9708f239a1d6404b7e9502c8d_icgraph" alt=""/></div>
+<map name="aclassAudioCapture_aa6e59de9708f239a1d6404b7e9502c8d_icgraph" id="aclassAudioCapture_aa6e59de9708f239a1d6404b7e9502c8d_icgraph">
+<area shape="rect" title="Function to run the capturing loop in a separate thread." alt="" coords="260,5,475,47"/>
 <area shape="rect" href="classAudioCapture.html#a19c04e27f31f937ae0d062b2dc28f8d7" title="Constructor for this class." alt="" coords="5,13,212,39"/>
 </map>
 </div>
@@ -304,24 +369,12 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Callback function used to handle audio originating from hardware. </p>
-<p>This function reads the available audio data into a <a class="el" href="classPingPongBuffer.html" title="Special buffer calls callback when full.">PingPongBuffer</a>. Optionally, it renders a visualization of the audio data.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>This function reads the available audio data into a <a class="el" href="classPingPongBuffer.html" title="Special buffer calls callback when full.">PingPongBuffer</a>. Optionally, it renders a visualisation of the audio data. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pcm_callback</td><td>The ALSA PCM callback handler. </td></tr>
+    <tr><td class="paramname">pcm_callback</td><td>A pointer to the ALSA asynchronous callback handler. </td></tr>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="classAudioCapture_ab3896451a319def83bf57d0a8a3fde16_cgraph.png" border="0" usemap="#aclassAudioCapture_ab3896451a319def83bf57d0a8a3fde16_cgraph" alt=""/></div>
-<map name="aclassAudioCapture_ab3896451a319def83bf57d0a8a3fde16_cgraph" id="aclassAudioCapture_ab3896451a319def83bf57d0a8a3fde16_cgraph">
-<area shape="rect" title="Callback function used to handle audio originating from hardware." alt="" coords="5,46,200,73"/>
-<area shape="rect" href="classPingPongBuffer.html#a3e83626083eaf81e934b21f9de0ff94d" title="Function for adding data to the PingPongBuffer." alt="" coords="248,46,437,73"/>
-<area shape="rect" href="classPingPongBuffer.html#a91ed57ba227447c3501bdcf75c719f97" title="Switches current buffer out with the other, and resets its values." alt="" coords="486,5,657,47"/>
-<area shape="rect" href="classPingPongBuffer.html#a4f7da502016c0f826220a418793baa85" title="Calls the callback registered with the class with buffer data." alt="" coords="485,71,657,112"/>
-</map>
-</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -350,8 +403,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Prompts user to select audio device. </p>
-<p>Lists all discoverable audio devices on the system and prompts the user to input a number selection.</p>
-<dl class="section return"><dt>Returns</dt><dd>The selected device's name. </dd></dl>
+<p>Lists all discoverable audio devices on system and prompts user to input a number selection. </p><dl class="section return"><dt>Returns</dt><dd>The name of the selected audio device. </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -381,10 +433,9 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Registers callback for audio data. </p>
-<p>Calls to this function is equivalent to subscribing to the data. Multiple subscribers can be set up by making multiple calls.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Calls to this function is equivalent to subscribing to the data. Multiple subscribers can be set up by making multiple calls. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">cb</td><td>A callback function to be called when new audio data is available. </td></tr>
+    <tr><td class="paramname">cb</td><td>A function pointer to the callback to be registered. </td></tr>
   </table>
   </dd>
 </dl>
@@ -486,6 +537,62 @@ Here is the caller graph for this function:</div>
 <span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9bff04004db98d8416a95f1529ae1468"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bff04004db98d8416a95f1529ae1468">&#9670;&nbsp;</a></span>captureCv</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::condition_variable AudioCapture::captureCv</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8bdb57c2e08893f0078419f4f22ad9aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bdb57c2e08893f0078419f4f22ad9aa">&#9670;&nbsp;</a></span>captureMutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex AudioCapture::captureMutex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c39558d6f5aeb2687b02d5501305a34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c39558d6f5aeb2687b02d5501305a34">&#9670;&nbsp;</a></span>captureReady</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AudioCapture::captureReady</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae00c9795e6d5869ada0b4714fe8eff60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae00c9795e6d5869ada0b4714fe8eff60">&#9670;&nbsp;</a></span>captureThread</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::thread AudioCapture::captureThread</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

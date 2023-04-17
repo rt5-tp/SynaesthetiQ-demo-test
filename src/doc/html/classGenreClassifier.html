@@ -114,7 +114,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Performs automatic genre classifications based on incoming audio data. </p>
-<p>Uses the <a class="el" href="classAudioCapture.html" title="A wrapper around the asound library for capturing and processing audio.">AudioCapture</a> class to get audio, then uses <a class="el" href="classGenrePredictor.html">GenrePredictor</a> class to make requests to a webserver with WAV-formatted audio and receive regular predictions, which are passed to callback function.</p>
+<p>Uses the <a class="el" href="classAudioCapture.html" title="A wrapper around the asound library for capturing audio.">AudioCapture</a> class to get audio, then uses <a class="el" href="classGenrePredictor.html">GenrePredictor</a> class to make requests to a webserver with WAV-formatted audio and receive regular predictions, which are passed to callback function.</p>
 <p>!Warning: Singleton class !Do not attempt to instantiate multiple instances of this class </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a224843da56cf0ea5db91b888d4b0a2a4"></a>
@@ -179,7 +179,7 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Callback function for predicting genre of incoming audio. </p>
-<p>This function is passed to <a class="el" href="classAudioCapture.html" title="A wrapper around the asound library for capturing and processing audio.">AudioCapture</a> class, which calls it with available audio data. It accumulates audio until it has the required length and makes a prediction on the data. Lastly, prediction results are passed onto provided callback function 'callback' </p>
+<p>This function is passed to <a class="el" href="classAudioCapture.html" title="A wrapper around the asound library for capturing audio.">AudioCapture</a> class, which calls it with available audio data. It accumulates audio until it has the required length and makes a prediction on the data. Lastly, prediction results are passed onto provided callback function 'callback' </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

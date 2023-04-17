@@ -1,5 +1,6 @@
 <map id="FFTProcessor::start" name="FFTProcessor::start">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,152,32"/>
-<area shape="rect" id="node2" href="$classFFTProcessor.html#ad4eb2b3ba60986350d479ca14a03138b" title=" " alt="" coords="200,5,405,32"/>
-<area shape="rect" id="node3" href="$classFFTProcessor.html#a4ac8dce0e6b805f2731f34aa82f7956d" title=" " alt="" coords="453,5,644,32"/>
+<area shape="rect" id="node1" title="Starts the worker thread for FFT processing." alt="" coords="5,13,152,39"/>
+<area shape="rect" id="node2" href="$classFFTProcessor.html#ad4eb2b3ba60986350d479ca14a03138b" title="The worker thread function for FFT processing." alt="" coords="200,13,405,39"/>
+<area shape="rect" id="node3" href="$classFFTProcessor.html#a4ac8dce0e6b805f2731f34aa82f7956d" title="Performs FFT on the input data and calls the registered callback functions." alt="" coords="453,13,644,39"/>
+<area shape="rect" id="node4" href="$classFFTProcessor.html#ab5a72174002f8d0a181c7f8ed5b5e135" title="Converts FFT data into an LED matrix representation." alt="" coords="692,5,895,47"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="FFTProcessor::start" name="FFTProcessor::start">
-<area shape="rect" id="node1" title=" " alt="" coords="256,5,403,32"/>
-<area shape="rect" id="node2" href="$classFFTProcessor.html#a24d77d4ee34a0df2a72cc1ff698f241d" title=" " alt="" coords="5,5,208,32"/>
+<area shape="rect" id="node1" title="Starts the worker thread for FFT processing." alt="" coords="256,5,403,32"/>
+<area shape="rect" id="node2" href="$classFFTProcessor.html#a24d77d4ee34a0df2a72cc1ff698f241d" title="Default constructor for the FFTProcessor class." alt="" coords="5,5,208,32"/>
 </map>

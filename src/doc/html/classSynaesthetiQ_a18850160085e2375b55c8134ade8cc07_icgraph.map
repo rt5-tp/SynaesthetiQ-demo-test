@@ -1,5 +1,7 @@
 <map id="SynaesthetiQ::XYtoChainPos" name="SynaesthetiQ::XYtoChainPos">
-<area shape="rect" id="node1" title=" " alt="" coords="367,13,573,39"/>
-<area shape="rect" id="node2" href="$classSynaesthetiQ.html#acc5f189832116b91312edafed3915c79" title="Sets the colour of an individual LED on the matrix using x, y coordinates." alt="" coords="108,5,319,47"/>
-<area shape="rect" id="node3" href="$SynaesthetiQ-LED-Library_2src_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,13,60,39"/>
+<area shape="rect" id="node1" title=" " alt="" coords="567,31,773,57"/>
+<area shape="rect" id="node2" href="$classSynaesthetiQ.html#acc5f189832116b91312edafed3915c79" title="Sets the colour of an individual LED on the matrix using x, y coordinates." alt="" coords="308,23,519,65"/>
+<area shape="rect" id="node3" href="$SynaesthetiQ-LED-Library_2src_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="157,5,211,32"/>
+<area shape="rect" id="node4" href="$classVisualiser.html#a9513a15ed3b817a0b94b5c71493ffafb" title=" " alt="" coords="108,56,260,83"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,56,60,83"/>
 </map>

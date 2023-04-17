@@ -1,10 +1,11 @@
 <map id="AudioCapture::AudioCapture" name="AudioCapture::AudioCapture">
-<area shape="rect" id="node1" title="Constructor for this class." alt="" coords="5,101,212,127"/>
-<area shape="rect" id="node2" href="$classAudioCapture.html#ac0dbb758e257ac5bb1ef1e31e7cf5d22" title="Calls all callback functions with audio data when PingPongBuffer is full." alt="" coords="287,5,428,47"/>
-<area shape="rect" id="node3" href="$classAudioCapture.html#ab3896451a319def83bf57d0a8a3fde16" title="Callback function used to handle audio originating from hardware." alt="" coords="260,71,455,98"/>
-<area shape="rect" id="node7" href="$classAudioCapture.html#a7d2b75c5c63c68d607711fdad95300ec" title="Prompts user to select audio device." alt="" coords="275,123,440,164"/>
-<area shape="rect" id="node8" href="$classPingPongBuffer.html#a59da3ea9fc7be1c803f31245a718034f" title="Sets the registered callback to the one provided." alt="" coords="268,188,447,229"/>
-<area shape="rect" id="node4" href="$classPingPongBuffer.html#a3e83626083eaf81e934b21f9de0ff94d" title="Function for adding data to the PingPongBuffer." alt="" coords="503,71,692,98"/>
-<area shape="rect" id="node5" href="$classPingPongBuffer.html#a91ed57ba227447c3501bdcf75c719f97" title="Switches current buffer out with the other, and resets its values." alt="" coords="741,31,911,72"/>
-<area shape="rect" id="node6" href="$classPingPongBuffer.html#a4f7da502016c0f826220a418793baa85" title="Calls the callback registered with the class with buffer data." alt="" coords="740,96,912,137"/>
+<area shape="rect" id="node1" title="Constructor for this class." alt="" coords="5,137,212,163"/>
+<area shape="rect" id="node2" href="$classAudioCapture.html#a036ebae91f17657e3c155db68a686817" title="Calls all callback functions with audio data when PingPongBuffer is full." alt="" coords="297,5,438,47"/>
+<area shape="rect" id="node3" href="$classAudioCapture.html#aa6e59de9708f239a1d6404b7e9502c8d" title="Function to run the capturing loop in a separate thread." alt="" coords="260,71,475,112"/>
+<area shape="rect" id="node7" href="$classAudioCapture.html#ab3896451a319def83bf57d0a8a3fde16" title="Callback function used to handle audio originating from hardware." alt="" coords="270,137,465,163"/>
+<area shape="rect" id="node8" href="$classAudioCapture.html#a7d2b75c5c63c68d607711fdad95300ec" title="Prompts user to select audio device." alt="" coords="285,188,450,229"/>
+<area shape="rect" id="node9" href="$classPingPongBuffer.html#a59da3ea9fc7be1c803f31245a718034f" title="Sets the registered callback to the one provided." alt="" coords="278,253,457,295"/>
+<area shape="rect" id="node4" href="$classPingPongBuffer.html#a3e83626083eaf81e934b21f9de0ff94d" title="Function for adding data to the PingPongBuffer." alt="" coords="523,78,712,105"/>
+<area shape="rect" id="node5" href="$classPingPongBuffer.html#a91ed57ba227447c3501bdcf75c719f97" title="Switches current buffer out with the other, and resets its values." alt="" coords="761,37,931,79"/>
+<area shape="rect" id="node6" href="$classPingPongBuffer.html#a4f7da502016c0f826220a418793baa85" title="Calls the callback registered with the class with buffer data." alt="" coords="760,103,932,144"/>
 </map>

@@ -77,36 +77,50 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>A class for processing Fast Fourier Transform (FFT) on audio data.  
+ <a href="classFFTProcessor.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="FFTProcessor_8h_source.html">FFTProcessor.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for FFTProcessor:</div>
 <div class="dyncontent">
 <div class="center"><img src="classFFTProcessor__coll__graph.png" border="0" usemap="#aFFTProcessor_coll__map" alt="Collaboration graph"/></div>
 <map name="aFFTProcessor_coll__map" id="aFFTProcessor_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,113,32"/>
+<area shape="rect" title="A class for processing Fast Fourier Transform (FFT) on audio data." alt="" coords="5,5,113,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ae56ca750498e20702f34af1e8e8acd9f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#ae56ca750498e20702f34af1e8e8acd9f">DataAvailableCallback</a> = void(*)(const std::vector&lt; double &gt; &amp;)</td></tr>
-<tr class="separator:ae56ca750498e20702f34af1e8e8acd9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab71e813c4738dcf034f0c9b61d894f44"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#ab71e813c4738dcf034f0c9b61d894f44">DataAvailableCallback</a> = void(*)(const std::vector&lt; double &gt; &amp;)</td></tr>
+<tr class="separator:ab71e813c4738dcf034f0c9b61d894f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c87b891be90ba6c29eedf373634549b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#a4c87b891be90ba6c29eedf373634549b">LEDCallback</a> = void(*)(const std::vector&lt; std::vector&lt; bool &gt; &gt; &amp;)</td></tr>
+<tr class="separator:a4c87b891be90ba6c29eedf373634549b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae56ca750498e20702f34af1e8e8acd9f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#ae56ca750498e20702f34af1e8e8acd9f">DataAvailableCallback</a> = void(*)(const std::vector&lt; double &gt; &amp;)</td></tr>
 <tr class="separator:ae56ca750498e20702f34af1e8e8acd9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a24d77d4ee34a0df2a72cc1ff698f241d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#a24d77d4ee34a0df2a72cc1ff698f241d">FFTProcessor</a> ()</td></tr>
+<tr class="memdesc:a24d77d4ee34a0df2a72cc1ff698f241d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor for the <a class="el" href="classFFTProcessor.html" title="A class for processing Fast Fourier Transform (FFT) on audio data.">FFTProcessor</a> class.  <a href="classFFTProcessor.html#a24d77d4ee34a0df2a72cc1ff698f241d">More...</a><br /></td></tr>
 <tr class="separator:a24d77d4ee34a0df2a72cc1ff698f241d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1dda95146f6ec9dedd923eaf80e7401"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#aa1dda95146f6ec9dedd923eaf80e7401">~FFTProcessor</a> ()</td></tr>
+<tr class="memdesc:aa1dda95146f6ec9dedd923eaf80e7401"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor for the <a class="el" href="classFFTProcessor.html" title="A class for processing Fast Fourier Transform (FFT) on audio data.">FFTProcessor</a> class.  <a href="classFFTProcessor.html#aa1dda95146f6ec9dedd923eaf80e7401">More...</a><br /></td></tr>
 <tr class="separator:aa1dda95146f6ec9dedd923eaf80e7401"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8dc43650e52d022abf6638b13c829d93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#a8dc43650e52d022abf6638b13c829d93">start</a> ()</td></tr>
+<tr class="memdesc:a8dc43650e52d022abf6638b13c829d93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the worker thread for FFT processing.  <a href="classFFTProcessor.html#a8dc43650e52d022abf6638b13c829d93">More...</a><br /></td></tr>
 <tr class="separator:a8dc43650e52d022abf6638b13c829d93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affdb6b0b0f98fe05a656490fe3498dbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#affdb6b0b0f98fe05a656490fe3498dbe">stop</a> ()</td></tr>
+<tr class="memdesc:affdb6b0b0f98fe05a656490fe3498dbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops the worker thread for FFT processing.  <a href="classFFTProcessor.html#affdb6b0b0f98fe05a656490fe3498dbe">More...</a><br /></td></tr>
 <tr class="separator:affdb6b0b0f98fe05a656490fe3498dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6213f0b5a470f393334fee8b7d81fa32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#a6213f0b5a470f393334fee8b7d81fa32">registerCallback</a> (<a class="el" href="classFFTProcessor.html#ae56ca750498e20702f34af1e8e8acd9f">DataAvailableCallback</a> cb)</td></tr>
+<tr class="memitem:a6213f0b5a470f393334fee8b7d81fa32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#a6213f0b5a470f393334fee8b7d81fa32">registerCallback</a> (<a class="el" href="classFFTProcessor.html#ab71e813c4738dcf034f0c9b61d894f44">DataAvailableCallback</a> cb)</td></tr>
+<tr class="memdesc:a6213f0b5a470f393334fee8b7d81fa32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a callback function for FFT data availability.  <a href="classFFTProcessor.html#a6213f0b5a470f393334fee8b7d81fa32">More...</a><br /></td></tr>
 <tr class="separator:a6213f0b5a470f393334fee8b7d81fa32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51c619247da8fddd752632485d8bd10a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#a51c619247da8fddd752632485d8bd10a">registerLEDCallback</a> (<a class="el" href="classFFTProcessor.html#a4c87b891be90ba6c29eedf373634549b">LEDCallback</a> cb)</td></tr>
+<tr class="memdesc:a51c619247da8fddd752632485d8bd10a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a callback function for LED matrix data availability.  <a href="classFFTProcessor.html#a51c619247da8fddd752632485d8bd10a">More...</a><br /></td></tr>
+<tr class="separator:a51c619247da8fddd752632485d8bd10a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a409ab6fbb7d4022bca9dd3431d040b57"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#a409ab6fbb7d4022bca9dd3431d040b57">getReducedResolutionFFT</a> (const std::vector&lt; double &gt; &amp;fftOutputData, int numSections)</td></tr>
+<tr class="memdesc:a409ab6fbb7d4022bca9dd3431d040b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reduced resolution FFT data vector based on the specified method.  <a href="classFFTProcessor.html#a409ab6fbb7d4022bca9dd3431d040b57">More...</a><br /></td></tr>
 <tr class="separator:a409ab6fbb7d4022bca9dd3431d040b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24d77d4ee34a0df2a72cc1ff698f241d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#a24d77d4ee34a0df2a72cc1ff698f241d">FFTProcessor</a> ()</td></tr>
 <tr class="separator:a24d77d4ee34a0df2a72cc1ff698f241d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -116,7 +130,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8dc43650e52d022abf6638b13c829d93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affdb6b0b0f98fe05a656490fe3498dbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#affdb6b0b0f98fe05a656490fe3498dbe">stop</a> ()</td></tr>
 <tr class="separator:affdb6b0b0f98fe05a656490fe3498dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6213f0b5a470f393334fee8b7d81fa32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#a6213f0b5a470f393334fee8b7d81fa32">registerCallback</a> (<a class="el" href="classFFTProcessor.html#ae56ca750498e20702f34af1e8e8acd9f">DataAvailableCallback</a> cb)</td></tr>
+<tr class="memitem:a6213f0b5a470f393334fee8b7d81fa32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#a6213f0b5a470f393334fee8b7d81fa32">registerCallback</a> (<a class="el" href="classFFTProcessor.html#ab71e813c4738dcf034f0c9b61d894f44">DataAvailableCallback</a> cb)</td></tr>
 <tr class="separator:a6213f0b5a470f393334fee8b7d81fa32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a409ab6fbb7d4022bca9dd3431d040b57"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#a409ab6fbb7d4022bca9dd3431d040b57">getReducedResolutionFFT</a> (const std::vector&lt; double &gt; &amp;fftOutputData, int numSections)</td></tr>
 <tr class="separator:a409ab6fbb7d4022bca9dd3431d040b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,6 +138,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae110ed768d5ba0e42ac636ae3cd39185"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#ae110ed768d5ba0e42ac636ae3cd39185">audio_callback</a> (const std::vector&lt; short &gt; &amp;data)</td></tr>
+<tr class="memdesc:ae110ed768d5ba0e42ac636ae3cd39185"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback function to receive audio data.  <a href="classFFTProcessor.html#ae110ed768d5ba0e42ac636ae3cd39185">More...</a><br /></td></tr>
 <tr class="separator:ae110ed768d5ba0e42ac636ae3cd39185"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b15cb6730903de9ffcc989ca9022625"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#a3b15cb6730903de9ffcc989ca9022625">audio_callback</a> (const std::vector&lt; short &gt; &amp;data)</td></tr>
 <tr class="separator:a3b15cb6730903de9ffcc989ca9022625"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,9 +151,14 @@ Public Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:ad4eb2b3ba60986350d479ca14a03138b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#ad4eb2b3ba60986350d479ca14a03138b">workerThread</a> ()</td></tr>
+<tr class="memdesc:ad4eb2b3ba60986350d479ca14a03138b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The worker thread function for FFT processing.  <a href="classFFTProcessor.html#ad4eb2b3ba60986350d479ca14a03138b">More...</a><br /></td></tr>
 <tr class="separator:ad4eb2b3ba60986350d479ca14a03138b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ac8dce0e6b805f2731f34aa82f7956d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#a4ac8dce0e6b805f2731f34aa82f7956d">performFFT</a> (const std::vector&lt; double &gt; &amp;data)</td></tr>
+<tr class="memdesc:a4ac8dce0e6b805f2731f34aa82f7956d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs FFT on the input data and calls the registered callback functions.  <a href="classFFTProcessor.html#a4ac8dce0e6b805f2731f34aa82f7956d">More...</a><br /></td></tr>
 <tr class="separator:a4ac8dce0e6b805f2731f34aa82f7956d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5a72174002f8d0a181c7f8ed5b5e135"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#ab5a72174002f8d0a181c7f8ed5b5e135">convertFFTToLEDMatrix</a> (const std::vector&lt; double &gt; &amp;fftData, int rows, int cols, double minFrequency, double maxFrequency)</td></tr>
+<tr class="memdesc:ab5a72174002f8d0a181c7f8ed5b5e135"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts FFT data into an LED matrix representation.  <a href="classFFTProcessor.html#ab5a72174002f8d0a181c7f8ed5b5e135">More...</a><br /></td></tr>
+<tr class="separator:ab5a72174002f8d0a181c7f8ed5b5e135"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4eb2b3ba60986350d479ca14a03138b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#ad4eb2b3ba60986350d479ca14a03138b">workerThread</a> ()</td></tr>
 <tr class="separator:ad4eb2b3ba60986350d479ca14a03138b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ac8dce0e6b805f2731f34aa82f7956d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#a4ac8dce0e6b805f2731f34aa82f7956d">performFFT</a> (const std::vector&lt; double &gt; &amp;data)</td></tr>
@@ -158,7 +178,11 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a9f2f737e2ba719e638887afdc7af4a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a313b07f9be2085ae7ffa22952c4fa6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#a3a313b07f9be2085ae7ffa22952c4fa6">inputData</a></td></tr>
 <tr class="separator:a3a313b07f9be2085ae7ffa22952c4fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6dd799eb8285560aa7952ec7728b76f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFFTProcessor.html#ae56ca750498e20702f34af1e8e8acd9f">DataAvailableCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#af6dd799eb8285560aa7952ec7728b76f">callback</a></td></tr>
+<tr class="memitem:a98a46e4ee3e447bcce2dd0c6d242e702"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFFTProcessor.html#ab71e813c4738dcf034f0c9b61d894f44">DataAvailableCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#a98a46e4ee3e447bcce2dd0c6d242e702">fftCallback</a></td></tr>
+<tr class="separator:a98a46e4ee3e447bcce2dd0c6d242e702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accf420c3ea226463bc1f215f6c83cdf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFFTProcessor.html#a4c87b891be90ba6c29eedf373634549b">LEDCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#accf420c3ea226463bc1f215f6c83cdf7">ledMatrixCallback</a></td></tr>
+<tr class="separator:accf420c3ea226463bc1f215f6c83cdf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6dd799eb8285560aa7952ec7728b76f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFFTProcessor.html#ab71e813c4738dcf034f0c9b61d894f44">DataAvailableCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#af6dd799eb8285560aa7952ec7728b76f">callback</a></td></tr>
 <tr class="separator:af6dd799eb8285560aa7952ec7728b76f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
@@ -168,15 +192,17 @@ Static Private Attributes</h2></td></tr>
 <tr class="memitem:ab476208666cd93d3e6a2bdd85485d2ec"><td class="memItemLeft" align="right" valign="top">static std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFFTProcessor.html#ab476208666cd93d3e6a2bdd85485d2ec">saudio_available</a></td></tr>
 <tr class="separator:ab476208666cd93d3e6a2bdd85485d2ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="ae56ca750498e20702f34af1e8e8acd9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae56ca750498e20702f34af1e8e8acd9f">&#9670;&nbsp;</a></span>DataAvailableCallback <span class="overload">[1/2]</span></h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class for processing Fast Fourier Transform (FFT) on audio data. </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="ab71e813c4738dcf034f0c9b61d894f44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab71e813c4738dcf034f0c9b61d894f44">&#9670;&nbsp;</a></span>DataAvailableCallback <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classFFTProcessor.html#ae56ca750498e20702f34af1e8e8acd9f">FFTProcessor::DataAvailableCallback</a> =  void(*)(const std::vector&lt;double&gt; &amp;)</td>
+          <td class="memname">using <a class="el" href="classFFTProcessor.html#ab71e813c4738dcf034f0c9b61d894f44">FFTProcessor::DataAvailableCallback</a> =  void (*)(const std::vector&lt;double&gt; &amp;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -190,7 +216,21 @@ Static Private Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classFFTProcessor.html#ae56ca750498e20702f34af1e8e8acd9f">FFTProcessor::DataAvailableCallback</a> =  void(*)(const std::vector&lt;double&gt; &amp;)</td>
+          <td class="memname">using <a class="el" href="classFFTProcessor.html#ab71e813c4738dcf034f0c9b61d894f44">FFTProcessor::DataAvailableCallback</a> =  void(*)(const std::vector&lt;double&gt; &amp;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4c87b891be90ba6c29eedf373634549b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c87b891be90ba6c29eedf373634549b">&#9670;&nbsp;</a></span>LEDCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classFFTProcessor.html#a4c87b891be90ba6c29eedf373634549b">FFTProcessor::LEDCallback</a> =  void (*)(const std::vector&lt;std::vector&lt;bool&gt; &gt; &amp;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -212,15 +252,18 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Default constructor for the <a class="el" href="classFFTProcessor.html" title="A class for processing Fast Fourier Transform (FFT) on audio data.">FFTProcessor</a> class. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classFFTProcessor_a24d77d4ee34a0df2a72cc1ff698f241d_cgraph.png" border="0" usemap="#aclassFFTProcessor_a24d77d4ee34a0df2a72cc1ff698f241d_cgraph" alt=""/></div>
 <map name="aclassFFTProcessor_a24d77d4ee34a0df2a72cc1ff698f241d_cgraph" id="aclassFFTProcessor_a24d77d4ee34a0df2a72cc1ff698f241d_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,208,32"/>
-<area shape="rect" href="classFFTProcessor.html#a8dc43650e52d022abf6638b13c829d93" title=" " alt="" coords="256,5,403,32"/>
-<area shape="rect" href="classFFTProcessor.html#ad4eb2b3ba60986350d479ca14a03138b" title=" " alt="" coords="451,5,656,32"/>
-<area shape="rect" href="classFFTProcessor.html#a4ac8dce0e6b805f2731f34aa82f7956d" title=" " alt="" coords="704,5,895,32"/>
+<area shape="rect" title="Default constructor for the FFTProcessor class." alt="" coords="5,13,208,39"/>
+<area shape="rect" href="classFFTProcessor.html#a8dc43650e52d022abf6638b13c829d93" title="Starts the worker thread for FFT processing." alt="" coords="256,13,403,39"/>
+<area shape="rect" href="classFFTProcessor.html#ad4eb2b3ba60986350d479ca14a03138b" title="The worker thread function for FFT processing." alt="" coords="451,13,656,39"/>
+<area shape="rect" href="classFFTProcessor.html#a4ac8dce0e6b805f2731f34aa82f7956d" title="Performs FFT on the input data and calls the registered callback functions." alt="" coords="704,13,895,39"/>
+<area shape="rect" href="classFFTProcessor.html#ab5a72174002f8d0a181c7f8ed5b5e135" title="Converts FFT data into an LED matrix representation." alt="" coords="943,5,1145,47"/>
 </map>
 </div>
 
@@ -240,13 +283,15 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Destructor for the <a class="el" href="classFFTProcessor.html" title="A class for processing Fast Fourier Transform (FFT) on audio data.">FFTProcessor</a> class. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classFFTProcessor_aa1dda95146f6ec9dedd923eaf80e7401_cgraph.png" border="0" usemap="#aclassFFTProcessor_aa1dda95146f6ec9dedd923eaf80e7401_cgraph" alt=""/></div>
 <map name="aclassFFTProcessor_aa1dda95146f6ec9dedd923eaf80e7401_cgraph" id="aclassFFTProcessor_aa1dda95146f6ec9dedd923eaf80e7401_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,219,32"/>
-<area shape="rect" href="classFFTProcessor.html#affdb6b0b0f98fe05a656490fe3498dbe" title=" " alt="" coords="267,5,411,32"/>
+<area shape="rect" title="Destructor for the FFTProcessor class." alt="" coords="5,5,219,32"/>
+<area shape="rect" href="classFFTProcessor.html#affdb6b0b0f98fe05a656490fe3498dbe" title="Stops the worker thread for FFT processing." alt="" coords="267,5,411,32"/>
 </map>
 </div>
 
@@ -310,12 +355,20 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Callback function to receive audio data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>A vector containing the audio data. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classFFTProcessor_ae110ed768d5ba0e42ac636ae3cd39185_icgraph.png" border="0" usemap="#aclassFFTProcessor_ae110ed768d5ba0e42ac636ae3cd39185_icgraph" alt=""/></div>
 <map name="aclassFFTProcessor_ae110ed768d5ba0e42ac636ae3cd39185_icgraph" id="aclassFFTProcessor_ae110ed768d5ba0e42ac636ae3cd39185_icgraph">
-<area shape="rect" title=" " alt="" coords="212,23,364,65"/>
+<area shape="rect" title="Callback function to receive audio data." alt="" coords="212,23,364,65"/>
 <area shape="rect" href="SynaesthetiQ-audiocapture_2src_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="57,5,112,32"/>
 <area shape="rect" href="classVisualiser.html#a9c5584fbd8f70548a6694e3a89c60538" title=" " alt="" coords="5,56,164,83"/>
 </map>
@@ -349,6 +402,96 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ab5a72174002f8d0a181c7f8ed5b5e135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5a72174002f8d0a181c7f8ed5b5e135">&#9670;&nbsp;</a></span>convertFFTToLEDMatrix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::vector&lt; bool &gt; &gt; FFTProcessor::convertFFTToLEDMatrix </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>fftData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>rows</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cols</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>minFrequency</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>maxFrequency</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts FFT data into an LED matrix representation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fftData</td><td>A vector containing the FFT data. </td></tr>
+    <tr><td class="paramname">rows</td><td>The number of rows in the LED matrix. </td></tr>
+    <tr><td class="paramname">cols</td><td>The number of columns in the LED matrix. </td></tr>
+    <tr><td class="paramname">minFrequency</td><td>The minimum frequency to include in the matrix. </td></tr>
+    <tr><td class="paramname">maxFrequency</td><td>The maximum frequency to include in the matrix. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A 2D vector representing the LED matrix.</dd></dl>
+<p>This function takes in FFT data, number of rows, number of columns, and a max frequency, and outputs a 2D matrix of bools. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fftData</td><td>a vector of double values representing the FFT data </td></tr>
+    <tr><td class="paramname">rows</td><td>an integer representing the number of rows in the output LED matrix </td></tr>
+    <tr><td class="paramname">cols</td><td>an integer representing the number of columns in the output LED matrix </td></tr>
+    <tr><td class="paramname">minFrequency</td><td>a double representing the minimum frequency of the LED matrix display </td></tr>
+    <tr><td class="paramname">maxFrequency</td><td>a double representing the maximum frequency of the LED matrix display </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a 2D vector of bool values representing the LED matrix display </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classFFTProcessor_ab5a72174002f8d0a181c7f8ed5b5e135_icgraph.png" border="0" usemap="#aclassFFTProcessor_ab5a72174002f8d0a181c7f8ed5b5e135_icgraph" alt=""/></div>
+<map name="aclassFFTProcessor_ab5a72174002f8d0a181c7f8ed5b5e135_icgraph" id="aclassFFTProcessor_ab5a72174002f8d0a181c7f8ed5b5e135_icgraph">
+<area shape="rect" title="Converts FFT data into an LED matrix representation." alt="" coords="943,5,1145,47"/>
+<area shape="rect" href="classFFTProcessor.html#a4ac8dce0e6b805f2731f34aa82f7956d" title="Performs FFT on the input data and calls the registered callback functions." alt="" coords="704,13,895,39"/>
+<area shape="rect" href="classFFTProcessor.html#ad4eb2b3ba60986350d479ca14a03138b" title="The worker thread function for FFT processing." alt="" coords="451,13,656,39"/>
+<area shape="rect" href="classFFTProcessor.html#a8dc43650e52d022abf6638b13c829d93" title="Starts the worker thread for FFT processing." alt="" coords="256,13,403,39"/>
+<area shape="rect" href="classFFTProcessor.html#a24d77d4ee34a0df2a72cc1ff698f241d" title="Default constructor for the FFTProcessor class." alt="" coords="5,13,208,39"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a409ab6fbb7d4022bca9dd3431d040b57"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a409ab6fbb7d4022bca9dd3431d040b57">&#9670;&nbsp;</a></span>getReducedResolutionFFT() <span class="overload">[1/2]</span></h2>
 
@@ -374,6 +517,16 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns a reduced resolution FFT data vector based on the specified method. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fftOutputData</td><td>A vector containing the original FFT output data. </td></tr>
+    <tr><td class="paramname">numSections</td><td>The number of sections to divide the data into. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A vector of reduced resolution FFT data. </dd></dl>
 
 </div>
 </div>
@@ -428,15 +581,32 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Performs FFT on the input data and calls the registered callback functions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>A vector containing the input data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classFFTProcessor_a4ac8dce0e6b805f2731f34aa82f7956d_cgraph.png" border="0" usemap="#aclassFFTProcessor_a4ac8dce0e6b805f2731f34aa82f7956d_cgraph" alt=""/></div>
+<map name="aclassFFTProcessor_a4ac8dce0e6b805f2731f34aa82f7956d_cgraph" id="aclassFFTProcessor_a4ac8dce0e6b805f2731f34aa82f7956d_cgraph">
+<area shape="rect" title="Performs FFT on the input data and calls the registered callback functions." alt="" coords="5,13,196,39"/>
+<area shape="rect" href="classFFTProcessor.html#ab5a72174002f8d0a181c7f8ed5b5e135" title="Converts FFT data into an LED matrix representation." alt="" coords="244,5,447,47"/>
+</map>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classFFTProcessor_a4ac8dce0e6b805f2731f34aa82f7956d_icgraph.png" border="0" usemap="#aclassFFTProcessor_a4ac8dce0e6b805f2731f34aa82f7956d_icgraph" alt=""/></div>
 <map name="aclassFFTProcessor_a4ac8dce0e6b805f2731f34aa82f7956d_icgraph" id="aclassFFTProcessor_a4ac8dce0e6b805f2731f34aa82f7956d_icgraph">
-<area shape="rect" title=" " alt="" coords="704,5,895,32"/>
-<area shape="rect" href="classFFTProcessor.html#ad4eb2b3ba60986350d479ca14a03138b" title=" " alt="" coords="451,5,656,32"/>
-<area shape="rect" href="classFFTProcessor.html#a8dc43650e52d022abf6638b13c829d93" title=" " alt="" coords="256,5,403,32"/>
-<area shape="rect" href="classFFTProcessor.html#a24d77d4ee34a0df2a72cc1ff698f241d" title=" " alt="" coords="5,5,208,32"/>
+<area shape="rect" title="Performs FFT on the input data and calls the registered callback functions." alt="" coords="704,5,895,32"/>
+<area shape="rect" href="classFFTProcessor.html#ad4eb2b3ba60986350d479ca14a03138b" title="The worker thread function for FFT processing." alt="" coords="451,5,656,32"/>
+<area shape="rect" href="classFFTProcessor.html#a8dc43650e52d022abf6638b13c829d93" title="Starts the worker thread for FFT processing." alt="" coords="256,5,403,32"/>
+<area shape="rect" href="classFFTProcessor.html#a24d77d4ee34a0df2a72cc1ff698f241d" title="Default constructor for the FFTProcessor class." alt="" coords="5,5,208,32"/>
 </map>
 </div>
 
@@ -477,18 +647,26 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void FFTProcessor::registerCallback </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classFFTProcessor.html#ae56ca750498e20702f34af1e8e8acd9f">DataAvailableCallback</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classFFTProcessor.html#ab71e813c4738dcf034f0c9b61d894f44">DataAvailableCallback</a>&#160;</td>
           <td class="paramname"><em>cb</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Registers a callback function for FFT data availability. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cb</td><td>A function pointer to the callback to be registered. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classFFTProcessor_a6213f0b5a470f393334fee8b7d81fa32_icgraph.png" border="0" usemap="#aclassFFTProcessor_a6213f0b5a470f393334fee8b7d81fa32_icgraph" alt=""/></div>
 <map name="aclassFFTProcessor_a6213f0b5a470f393334fee8b7d81fa32_icgraph" id="aclassFFTProcessor_a6213f0b5a470f393334fee8b7d81fa32_icgraph">
-<area shape="rect" title=" " alt="" coords="212,31,435,57"/>
+<area shape="rect" title="Registers a callback function for FFT data availability." alt="" coords="212,31,435,57"/>
 <area shape="rect" href="SynaesthetiQ-audiocapture_2src_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="57,5,112,32"/>
 <area shape="rect" href="classVisualiser.html#a9c5584fbd8f70548a6694e3a89c60538" title=" " alt="" coords="5,56,164,83"/>
 </map>
@@ -505,12 +683,47 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void FFTProcessor::registerCallback </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classFFTProcessor.html#ae56ca750498e20702f34af1e8e8acd9f">DataAvailableCallback</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classFFTProcessor.html#ab71e813c4738dcf034f0c9b61d894f44">DataAvailableCallback</a>&#160;</td>
           <td class="paramname"><em>cb</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51c619247da8fddd752632485d8bd10a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51c619247da8fddd752632485d8bd10a">&#9670;&nbsp;</a></span>registerLEDCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FFTProcessor::registerLEDCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classFFTProcessor.html#a4c87b891be90ba6c29eedf373634549b">LEDCallback</a>&#160;</td>
+          <td class="paramname"><em>cb</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Registers a callback function for LED matrix data availability. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cb</td><td>A function pointer to the callback to be registered. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classFFTProcessor_a51c619247da8fddd752632485d8bd10a_icgraph.png" border="0" usemap="#aclassFFTProcessor_a51c619247da8fddd752632485d8bd10a_icgraph" alt=""/></div>
+<map name="aclassFFTProcessor_a51c619247da8fddd752632485d8bd10a_icgraph" id="aclassFFTProcessor_a51c619247da8fddd752632485d8bd10a_icgraph">
+<area shape="rect" title="Registers a callback function for LED matrix data availability." alt="" coords="212,5,459,32"/>
+<area shape="rect" href="classVisualiser.html#a9c5584fbd8f70548a6694e3a89c60538" title=" " alt="" coords="5,5,164,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -528,14 +741,17 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Starts the worker thread for FFT processing. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classFFTProcessor_a8dc43650e52d022abf6638b13c829d93_cgraph.png" border="0" usemap="#aclassFFTProcessor_a8dc43650e52d022abf6638b13c829d93_cgraph" alt=""/></div>
 <map name="aclassFFTProcessor_a8dc43650e52d022abf6638b13c829d93_cgraph" id="aclassFFTProcessor_a8dc43650e52d022abf6638b13c829d93_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,152,32"/>
-<area shape="rect" href="classFFTProcessor.html#ad4eb2b3ba60986350d479ca14a03138b" title=" " alt="" coords="200,5,405,32"/>
-<area shape="rect" href="classFFTProcessor.html#a4ac8dce0e6b805f2731f34aa82f7956d" title=" " alt="" coords="453,5,644,32"/>
+<area shape="rect" title="Starts the worker thread for FFT processing." alt="" coords="5,13,152,39"/>
+<area shape="rect" href="classFFTProcessor.html#ad4eb2b3ba60986350d479ca14a03138b" title="The worker thread function for FFT processing." alt="" coords="200,13,405,39"/>
+<area shape="rect" href="classFFTProcessor.html#a4ac8dce0e6b805f2731f34aa82f7956d" title="Performs FFT on the input data and calls the registered callback functions." alt="" coords="453,13,644,39"/>
+<area shape="rect" href="classFFTProcessor.html#ab5a72174002f8d0a181c7f8ed5b5e135" title="Converts FFT data into an LED matrix representation." alt="" coords="692,5,895,47"/>
 </map>
 </div>
 <div class="dynheader">
@@ -543,8 +759,8 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classFFTProcessor_a8dc43650e52d022abf6638b13c829d93_icgraph.png" border="0" usemap="#aclassFFTProcessor_a8dc43650e52d022abf6638b13c829d93_icgraph" alt=""/></div>
 <map name="aclassFFTProcessor_a8dc43650e52d022abf6638b13c829d93_icgraph" id="aclassFFTProcessor_a8dc43650e52d022abf6638b13c829d93_icgraph">
-<area shape="rect" title=" " alt="" coords="256,5,403,32"/>
-<area shape="rect" href="classFFTProcessor.html#a24d77d4ee34a0df2a72cc1ff698f241d" title=" " alt="" coords="5,5,208,32"/>
+<area shape="rect" title="Starts the worker thread for FFT processing." alt="" coords="256,5,403,32"/>
+<area shape="rect" href="classFFTProcessor.html#a24d77d4ee34a0df2a72cc1ff698f241d" title="Default constructor for the FFTProcessor class." alt="" coords="5,5,208,32"/>
 </map>
 </div>
 
@@ -581,13 +797,15 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Stops the worker thread for FFT processing. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classFFTProcessor_affdb6b0b0f98fe05a656490fe3498dbe_icgraph.png" border="0" usemap="#aclassFFTProcessor_affdb6b0b0f98fe05a656490fe3498dbe_icgraph" alt=""/></div>
 <map name="aclassFFTProcessor_affdb6b0b0f98fe05a656490fe3498dbe_icgraph" id="aclassFFTProcessor_affdb6b0b0f98fe05a656490fe3498dbe_icgraph">
-<area shape="rect" title=" " alt="" coords="267,5,411,32"/>
-<area shape="rect" href="classFFTProcessor.html#aa1dda95146f6ec9dedd923eaf80e7401" title=" " alt="" coords="5,5,219,32"/>
+<area shape="rect" title="Stops the worker thread for FFT processing." alt="" coords="267,5,411,32"/>
+<area shape="rect" href="classFFTProcessor.html#aa1dda95146f6ec9dedd923eaf80e7401" title="Destructor for the FFTProcessor class." alt="" coords="5,5,219,32"/>
 </map>
 </div>
 
@@ -632,13 +850,16 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The worker thread function for FFT processing. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classFFTProcessor_ad4eb2b3ba60986350d479ca14a03138b_cgraph.png" border="0" usemap="#aclassFFTProcessor_ad4eb2b3ba60986350d479ca14a03138b_cgraph" alt=""/></div>
 <map name="aclassFFTProcessor_ad4eb2b3ba60986350d479ca14a03138b_cgraph" id="aclassFFTProcessor_ad4eb2b3ba60986350d479ca14a03138b_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,211,32"/>
-<area shape="rect" href="classFFTProcessor.html#a4ac8dce0e6b805f2731f34aa82f7956d" title=" " alt="" coords="259,5,449,32"/>
+<area shape="rect" title="The worker thread function for FFT processing." alt="" coords="5,13,211,39"/>
+<area shape="rect" href="classFFTProcessor.html#a4ac8dce0e6b805f2731f34aa82f7956d" title="Performs FFT on the input data and calls the registered callback functions." alt="" coords="259,13,449,39"/>
+<area shape="rect" href="classFFTProcessor.html#ab5a72174002f8d0a181c7f8ed5b5e135" title="Converts FFT data into an LED matrix representation." alt="" coords="497,5,700,47"/>
 </map>
 </div>
 <div class="dynheader">
@@ -646,9 +867,9 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classFFTProcessor_ad4eb2b3ba60986350d479ca14a03138b_icgraph.png" border="0" usemap="#aclassFFTProcessor_ad4eb2b3ba60986350d479ca14a03138b_icgraph" alt=""/></div>
 <map name="aclassFFTProcessor_ad4eb2b3ba60986350d479ca14a03138b_icgraph" id="aclassFFTProcessor_ad4eb2b3ba60986350d479ca14a03138b_icgraph">
-<area shape="rect" title=" " alt="" coords="451,5,656,32"/>
-<area shape="rect" href="classFFTProcessor.html#a8dc43650e52d022abf6638b13c829d93" title=" " alt="" coords="256,5,403,32"/>
-<area shape="rect" href="classFFTProcessor.html#a24d77d4ee34a0df2a72cc1ff698f241d" title=" " alt="" coords="5,5,208,32"/>
+<area shape="rect" title="The worker thread function for FFT processing." alt="" coords="451,5,656,32"/>
+<area shape="rect" href="classFFTProcessor.html#a8dc43650e52d022abf6638b13c829d93" title="Starts the worker thread for FFT processing." alt="" coords="256,5,403,32"/>
+<area shape="rect" href="classFFTProcessor.html#a24d77d4ee34a0df2a72cc1ff698f241d" title="Default constructor for the FFTProcessor class." alt="" coords="5,5,208,32"/>
 </map>
 </div>
 
@@ -712,7 +933,29 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classFFTProcessor.html#ae56ca750498e20702f34af1e8e8acd9f">DataAvailableCallback</a> FFTProcessor::callback</td>
+          <td class="memname"><a class="el" href="classFFTProcessor.html#ab71e813c4738dcf034f0c9b61d894f44">DataAvailableCallback</a> FFTProcessor::callback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a98a46e4ee3e447bcce2dd0c6d242e702"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98a46e4ee3e447bcce2dd0c6d242e702">&#9670;&nbsp;</a></span>fftCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classFFTProcessor.html#ab71e813c4738dcf034f0c9b61d894f44">DataAvailableCallback</a> FFTProcessor::fftCallback</td>
         </tr>
       </table>
   </td>
@@ -757,6 +1000,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">std::vector&lt; double &gt; FFTProcessor::inputData</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="accf420c3ea226463bc1f215f6c83cdf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accf420c3ea226463bc1f215f6c83cdf7">&#9670;&nbsp;</a></span>ledMatrixCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classFFTProcessor.html#a4c87b891be90ba6c29eedf373634549b">LEDCallback</a> FFTProcessor::ledMatrixCallback</td>
         </tr>
       </table>
   </td>

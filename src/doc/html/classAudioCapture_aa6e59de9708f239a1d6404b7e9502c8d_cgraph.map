@@ -1,0 +1,6 @@
+<map id="AudioCapture::CaptureThreadFunction" name="AudioCapture::CaptureThreadFunction">
+<area shape="rect" id="node1" title="Function to run the capturing loop in a separate thread." alt="" coords="5,39,220,80"/>
+<area shape="rect" id="node2" href="$classPingPongBuffer.html#a3e83626083eaf81e934b21f9de0ff94d" title="Function for adding data to the PingPongBuffer." alt="" coords="268,46,457,73"/>
+<area shape="rect" id="node3" href="$classPingPongBuffer.html#a91ed57ba227447c3501bdcf75c719f97" title="Switches current buffer out with the other, and resets its values." alt="" coords="506,5,677,47"/>
+<area shape="rect" id="node4" href="$classPingPongBuffer.html#a4f7da502016c0f826220a418793baa85" title="Calls the callback registered with the class with buffer data." alt="" coords="505,71,677,112"/>
+</map>

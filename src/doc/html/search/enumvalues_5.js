@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['ieeefloat_2461',['IEEEFloat',['../AudioFile_8h.html#a24ed57f869bfefdef1bed0a033886d8eaf48e2c55df672bab9d55c60af50a7181',1,'AudioFile.h']]],
-  ['ignore_2462',['ignore',['../namespacedetail.html#a7c070b2bf3d61e3d8b8013f6fb18d592a567bc1d268f135496de3d5b946b691f3',1,'detail::ignore()'],['../namespacedetail.html#abe7cfa1fd8fa706ff4392bff9d1a8298a567bc1d268f135496de3d5b946b691f3',1,'detail::ignore()']]]
+  ['ieeefloat_2488',['IEEEFloat',['../AudioFile_8h.html#a24ed57f869bfefdef1bed0a033886d8eaf48e2c55df672bab9d55c60af50a7181',1,'AudioFile.h']]],
+  ['ignore_2489',['ignore',['../namespacedetail.html#a7c070b2bf3d61e3d8b8013f6fb18d592a567bc1d268f135496de3d5b946b691f3',1,'detail::ignore()'],['../namespacedetail.html#abe7cfa1fd8fa706ff4392bff9d1a8298a567bc1d268f135496de3d5b946b691f3',1,'detail::ignore()']]]
 ];

@@ -82,9 +82,9 @@ Collaboration diagram for Visualiser:</div>
 <map name="aVisualiser_coll__map" id="aVisualiser_coll__map">
 <area shape="rect" title=" " alt="" coords="495,273,581,300"/>
 <area shape="rect" href="classEnvelopeFollower.html" title=" " alt="" coords="5,184,143,211"/>
-<area shape="rect" href="classFFTProcessor.html" title=" " alt="" coords="256,184,364,211"/>
+<area shape="rect" href="classFFTProcessor.html" title="A class for processing Fast Fourier Transform (FFT) on audio data." alt="" coords="256,184,364,211"/>
 <area shape="rect" href="classGenreClassifier.html" title="Performs automatic genre classifications based on incoming audio data." alt="" coords="477,184,599,211"/>
-<area shape="rect" href="classAudioCapture.html" title="A wrapper around the asound library for capturing and processing audio." alt="" coords="623,184,733,211"/>
+<area shape="rect" href="classAudioCapture.html" title="A wrapper around the asound library for capturing audio." alt="" coords="623,184,733,211"/>
 <area shape="rect" href="classPingPongBuffer.html" title="Special buffer calls callback when full." alt="" coords="617,95,739,121"/>
 <area shape="rect" href="classSynaesthetiQ.html" title="A class to manage the SynaesthetiQ and create visualisations." alt="" coords="758,184,867,211"/>
 <area shape="rect" href="structws2811__t.html" title=" " alt="" coords="767,95,851,121"/>
@@ -107,6 +107,8 @@ Static Private Member Functions</h2></td></tr>
 <tr class="separator:a627a3665217381422f754fe0662e81aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf83b937b1524b0e601c6309596c8686"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVisualiser.html#aaf83b937b1524b0e601c6309596c8686">fft_callback</a> (const std::vector&lt; double &gt; &amp;<a class="el" href="classVisualiser.html#a1aa571b658072febf6a59bb750f39576">fft_data</a>)</td></tr>
 <tr class="separator:aaf83b937b1524b0e601c6309596c8686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dd45f6c2c484eac9f1e63b2153f1b75"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVisualiser.html#a8dd45f6c2c484eac9f1e63b2153f1b75">fft_LEDcallback</a> (const std::vector&lt; std::vector&lt; bool &gt;&gt; &amp;<a class="el" href="classVisualiser.html#a4fa525884191edacf6afdd8678692cab">fftLED_data</a>)</td></tr>
+<tr class="separator:a8dd45f6c2c484eac9f1e63b2153f1b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34fca5ddfdc76444856308a63442ff1d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVisualiser.html#a34fca5ddfdc76444856308a63442ff1d">envelope_callback</a> (const std::vector&lt; short &gt; &amp;<a class="el" href="classVisualiser.html#ac9a5606f6a82c357e7c69521abab2273">envelope_data</a>)</td></tr>
 <tr class="separator:a34fca5ddfdc76444856308a63442ff1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -129,6 +131,8 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:afa94737741fd09f1064ea65425f9d121"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1aa571b658072febf6a59bb750f39576"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVisualiser.html#a1aa571b658072febf6a59bb750f39576">fft_data</a></td></tr>
 <tr class="separator:a1aa571b658072febf6a59bb750f39576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fa525884191edacf6afdd8678692cab"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::vector&lt; bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVisualiser.html#a4fa525884191edacf6afdd8678692cab">fftLED_data</a></td></tr>
+<tr class="separator:a4fa525884191edacf6afdd8678692cab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9a5606f6a82c357e7c69521abab2273"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; short &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVisualiser.html#ac9a5606f6a82c357e7c69521abab2273">envelope_data</a></td></tr>
 <tr class="separator:ac9a5606f6a82c357e7c69521abab2273"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -152,14 +156,16 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classVisualiser_a9c5584fbd8f70548a6694e3a89c60538_cgraph.png" border="0" usemap="#aclassVisualiser_a9c5584fbd8f70548a6694e3a89c60538_cgraph" alt=""/></div>
 <map name="aclassVisualiser_a9c5584fbd8f70548a6694e3a89c60538_cgraph" id="aclassVisualiser_a9c5584fbd8f70548a6694e3a89c60538_cgraph">
-<area shape="rect" title=" " alt="" coords="5,202,164,229"/>
-<area shape="rect" href="classEnvelopeFollower.html#a4dc1594c17f508244f84cd873b9c8c96" title=" " alt="" coords="233,5,414,47"/>
-<area shape="rect" href="classFFTProcessor.html#ae110ed768d5ba0e42ac636ae3cd39185" title=" " alt="" coords="247,71,399,112"/>
-<area shape="rect" href="classVisualiser.html#a34fca5ddfdc76444856308a63442ff1d" title=" " alt="" coords="246,136,401,177"/>
-<area shape="rect" href="classVisualiser.html#aaf83b937b1524b0e601c6309596c8686" title=" " alt="" coords="239,202,408,229"/>
-<area shape="rect" href="classAudioCapture.html#adc7ce55a0c63f8723decf6fb06f68203" title="Registers callback for audio data." alt="" coords="239,253,407,295"/>
-<area shape="rect" href="classFFTProcessor.html#a6213f0b5a470f393334fee8b7d81fa32" title=" " alt="" coords="212,319,435,346"/>
-<area shape="rect" href="classEnvelopeFollower.html#af6781686d216fa0ba4072e04ba6eec24" title=" " alt="" coords="226,371,421,412"/>
+<area shape="rect" title=" " alt="" coords="5,253,164,279"/>
+<area shape="rect" href="classEnvelopeFollower.html#a4dc1594c17f508244f84cd873b9c8c96" title=" " alt="" coords="245,5,426,47"/>
+<area shape="rect" href="classFFTProcessor.html#ae110ed768d5ba0e42ac636ae3cd39185" title="Callback function to receive audio data." alt="" coords="259,71,411,112"/>
+<area shape="rect" href="classVisualiser.html#a34fca5ddfdc76444856308a63442ff1d" title=" " alt="" coords="258,136,413,177"/>
+<area shape="rect" href="classVisualiser.html#aaf83b937b1524b0e601c6309596c8686" title=" " alt="" coords="251,202,420,229"/>
+<area shape="rect" href="classVisualiser.html#a8dd45f6c2c484eac9f1e63b2153f1b75" title=" " alt="" coords="238,253,433,279"/>
+<area shape="rect" href="classAudioCapture.html#adc7ce55a0c63f8723decf6fb06f68203" title="Registers callback for audio data." alt="" coords="251,304,419,345"/>
+<area shape="rect" href="classFFTProcessor.html#a6213f0b5a470f393334fee8b7d81fa32" title="Registers a callback function for FFT data availability." alt="" coords="224,370,447,397"/>
+<area shape="rect" href="classEnvelopeFollower.html#af6781686d216fa0ba4072e04ba6eec24" title=" " alt="" coords="238,421,433,463"/>
+<area shape="rect" href="classFFTProcessor.html#a51c619247da8fddd752632485d8bd10a" title="Registers a callback function for LED matrix data availability." alt="" coords="212,487,459,514"/>
 </map>
 </div>
 
@@ -236,6 +242,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a8dd45f6c2c484eac9f1e63b2153f1b75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dd45f6c2c484eac9f1e63b2153f1b75">&#9670;&nbsp;</a></span>fft_LEDcallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Visualiser::fft_LEDcallback </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; bool &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>fftLED_data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classVisualiser_a8dd45f6c2c484eac9f1e63b2153f1b75_icgraph.png" border="0" usemap="#aclassVisualiser_a8dd45f6c2c484eac9f1e63b2153f1b75_icgraph" alt=""/></div>
+<map name="aclassVisualiser_a8dd45f6c2c484eac9f1e63b2153f1b75_icgraph" id="aclassVisualiser_a8dd45f6c2c484eac9f1e63b2153f1b75_icgraph">
+<area shape="rect" title=" " alt="" coords="212,5,407,32"/>
+<area shape="rect" href="classVisualiser.html#a9c5584fbd8f70548a6694e3a89c60538" title=" " alt="" coords="5,5,164,32"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a627a3665217381422f754fe0662e81aa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a627a3665217381422f754fe0662e81aa">&#9670;&nbsp;</a></span>genre_prediction_callback()</h2>
 
@@ -281,23 +322,21 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classVisualiser_a9513a15ed3b817a0b94b5c71493ffafb_cgraph.png" border="0" usemap="#aclassVisualiser_a9513a15ed3b817a0b94b5c71493ffafb_cgraph" alt=""/></div>
 <map name="aclassVisualiser_a9513a15ed3b817a0b94b5c71493ffafb_cgraph" id="aclassVisualiser_a9513a15ed3b817a0b94b5c71493ffafb_cgraph">
-<area shape="rect" title=" " alt="" coords="5,115,157,142"/>
-<area shape="rect" href="classSynaesthetiQ.html#a8273c69b060be5345798ac2c458b3d23" title="Updates the SynasthetiQ with the colours set, while limiting current." alt="" coords="205,64,364,91"/>
-<area shape="rect" href="classColour.html#a40bad573ae839ccf43fad763cadc0868" title="Sets blue channel." alt="" coords="224,115,345,142"/>
-<area shape="rect" href="classColour.html#a66c9c624aabb2a2b8cca6c7b3662e63b" title="Sets green channel." alt="" coords="219,166,350,192"/>
-<area shape="rect" href="classSynaesthetiQ.html#a08634bd1971f17857dd4ee39bdc1a03f" title="Sets the colour of the matrix." alt="" coords="649,7,871,34"/>
-<area shape="rect" href="classColour.html#abb9555707b355fc477144ca7fa271443" title="Sets red channel." alt="" coords="226,216,343,243"/>
-<area shape="rect" href="classSynaesthetiQ.html#ab9e05d4bc66b1c9fba2ac6750569f91d" title=" " alt="" coords="412,141,601,182"/>
-<area shape="rect" href="ws2811_8h.html#ac420154e431984410aa2c1a92c845516" title=" " alt="" coords="415,90,598,116"/>
-<area shape="rect" href="ws2811_8h.html#a023b694aa905559b6ed2b18b859d8da3" title=" " alt="" coords="446,39,567,66"/>
-<area shape="rect" href="classSynaesthetiQ.html#a46066721d0b214e51b094658530735a7" title=" " alt="" coords="664,76,856,117"/>
-<area shape="rect" href="classSynaesthetiQ.html#ab65e704233dd6c0fbcacce1d19479bad" title=" " alt="" coords="651,141,869,182"/>
-<area shape="rect" href="classSynaesthetiQ.html#ab70dbc1ff675a562a04640ff246131e0" title=" " alt="" coords="947,78,1139,120"/>
-<area shape="rect" href="classColour.html#a69d451388d92e33e6e997b4a49fbab86" title="Returns 32 bit&#45;format of order Green, Red, Blue." alt="" coords="983,18,1104,44"/>
-<area shape="rect" href="classColour.html#ae206500d684bf5ce115e34ca83565eb6" title="Returns blue channel." alt="" coords="1221,116,1343,143"/>
-<area shape="rect" href="classColour.html#af2d77f94b1154325bd0c643fbd64b87c" title="Returns green channel." alt="" coords="1216,167,1348,194"/>
-<area shape="rect" href="classColour.html#a0bf66dd3c35d509290b5b79e1e3eb851" title="Returns red channel." alt="" coords="1223,66,1341,92"/>
-<area shape="rect" href="classSynaesthetiQ.html#ad737340d0ab2a4adb0f6a4880ce2feb6" title=" " alt="" coords="919,146,1168,172"/>
+<area shape="rect" title=" " alt="" coords="5,144,157,171"/>
+<area shape="rect" href="classSynaesthetiQ.html#a8273c69b060be5345798ac2c458b3d23" title="Updates the SynasthetiQ with the colours set, while limiting current." alt="" coords="231,85,390,112"/>
+<area shape="rect" href="classSynaesthetiQ.html#acc5f189832116b91312edafed3915c79" title="Sets the colour of an individual LED on the matrix using x, y coordinates." alt="" coords="205,166,416,207"/>
+<area shape="rect" href="classSynaesthetiQ.html#ab9e05d4bc66b1c9fba2ac6750569f91d" title=" " alt="" coords="473,107,662,149"/>
+<area shape="rect" href="ws2811_8h.html#ac420154e431984410aa2c1a92c845516" title=" " alt="" coords="476,5,659,32"/>
+<area shape="rect" href="ws2811_8h.html#a023b694aa905559b6ed2b18b859d8da3" title=" " alt="" coords="507,56,628,83"/>
+<area shape="rect" href="classSynaesthetiQ.html#a46066721d0b214e51b094658530735a7" title=" " alt="" coords="732,107,924,149"/>
+<area shape="rect" href="classSynaesthetiQ.html#ab65e704233dd6c0fbcacce1d19479bad" title=" " alt="" coords="719,42,937,83"/>
+<area shape="rect" href="classSynaesthetiQ.html#ab70dbc1ff675a562a04640ff246131e0" title=" " alt="" coords="1014,103,1206,145"/>
+<area shape="rect" href="classColour.html#a69d451388d92e33e6e997b4a49fbab86" title="Returns 32 bit&#45;format of order Green, Red, Blue." alt="" coords="1049,171,1171,197"/>
+<area shape="rect" href="classColour.html#ae206500d684bf5ce115e34ca83565eb6" title="Returns blue channel." alt="" coords="1287,132,1410,159"/>
+<area shape="rect" href="classColour.html#af2d77f94b1154325bd0c643fbd64b87c" title="Returns green channel." alt="" coords="1283,31,1415,57"/>
+<area shape="rect" href="classColour.html#a0bf66dd3c35d509290b5b79e1e3eb851" title="Returns red channel." alt="" coords="1289,81,1408,108"/>
+<area shape="rect" href="classSynaesthetiQ.html#ad737340d0ab2a4adb0f6a4880ce2feb6" title=" " alt="" coords="985,51,1235,77"/>
+<area shape="rect" href="classSynaesthetiQ.html#a18850160085e2375b55c8134ade8cc07" title=" " alt="" coords="464,224,671,251"/>
 </map>
 </div>
 <div class="dynheader">
@@ -390,6 +429,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">std::vector&lt; double &gt; Visualiser::fft_data</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4fa525884191edacf6afdd8678692cab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fa525884191edacf6afdd8678692cab">&#9670;&nbsp;</a></span>fftLED_data</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::vector&lt; bool &gt; &gt; Visualiser::fftLED_data</td>
         </tr>
       </table>
   </td>

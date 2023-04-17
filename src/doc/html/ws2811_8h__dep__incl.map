@@ -1,9 +1,10 @@
 <map id="SynaesthetiQ&#45;LED&#45;Library/src/ws2811/ws2811.h" name="SynaesthetiQ&#45;LED&#45;Library/src/ws2811/ws2811.h">
-<area shape="rect" id="node1" title=" " alt="" coords="251,5,441,47"/>
-<area shape="rect" id="node2" href="$synaesthetiq_8hpp.html" title=" " alt="" coords="220,95,472,136"/>
-<area shape="rect" id="node3" href="$SynaesthetiQ-LED-Library_2src_2main_8cpp.html" title=" " alt="" coords="5,184,196,225"/>
-<area shape="rect" id="node4" href="$synaesthetiq_8cpp.html" title=" " alt="" coords="221,184,471,225"/>
-<area shape="rect" id="node5" href="$Visualiser_8hpp.html" title=" " alt="" coords="495,191,677,218"/>
-<area shape="rect" id="node6" href="$main_8cpp.html" title=" " alt="" coords="466,273,549,300"/>
-<area shape="rect" id="node7" href="$Visualiser_8cpp.html" title=" " alt="" coords="573,273,753,300"/>
+<area shape="rect" id="node1" title=" " alt="" coords="243,5,434,47"/>
+<area shape="rect" id="node2" href="$synaesthetiq_8hpp.html" title=" " alt="" coords="213,95,465,136"/>
+<area shape="rect" id="node3" href="$kilLED_8cpp.html" title=" " alt="" coords="5,191,96,218"/>
+<area shape="rect" id="node4" href="$SynaesthetiQ-LED-Library_2src_2main_8cpp.html" title=" " alt="" coords="121,184,311,225"/>
+<area shape="rect" id="node5" href="$synaesthetiq_8cpp.html" title=" " alt="" coords="336,184,587,225"/>
+<area shape="rect" id="node6" href="$Visualiser_8hpp.html" title=" " alt="" coords="611,191,792,218"/>
+<area shape="rect" id="node7" href="$main_8cpp.html" title=" " alt="" coords="581,273,664,300"/>
+<area shape="rect" id="node8" href="$Visualiser_8cpp.html" title=" " alt="" coords="689,273,869,300"/>
 </map>
