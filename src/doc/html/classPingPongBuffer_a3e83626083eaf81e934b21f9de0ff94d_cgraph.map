@@ -1,0 +1,5 @@
+<map id="PingPongBuffer::add_data" name="PingPongBuffer::add_data">
+<area shape="rect" id="node1" title="Function for adding data to the PingPongBuffer." alt="" coords="5,46,195,73"/>
+<area shape="rect" id="node2" href="$classPingPongBuffer.html#a91ed57ba227447c3501bdcf75c719f97" title="Switches current buffer out with the other, and resets its values." alt="" coords="243,5,414,47"/>
+<area shape="rect" id="node3" href="$classPingPongBuffer.html#a4f7da502016c0f826220a418793baa85" title="Calls the callback registered with the class with buffer data." alt="" coords="243,71,415,112"/>
+</map>

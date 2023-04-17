@@ -1,0 +1,4 @@
+<map id="AudioCapture::prompt_device_selection" name="AudioCapture::prompt_device_selection">
+<area shape="rect" id="node1" title="Prompts user to select audio device." alt="" coords="260,5,425,47"/>
+<area shape="rect" id="node2" href="$classAudioCapture.html#a19c04e27f31f937ae0d062b2dc28f8d7" title="Constructor for this class." alt="" coords="5,13,212,39"/>
+</map>

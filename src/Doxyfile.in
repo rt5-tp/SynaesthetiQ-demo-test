@@ -1,0 +1,17 @@
+DOXYFILE_ENCODING      = UTF-8
+PROJECT_NAME           = "@PROJECT_NAME@"
+PROJECT_NUMBER         = 1.0
+PROJECT_BRIEF          = "SynaesthetiQ-Demo-Test"
+OUTPUT_DIRECTORY       = @CMAKE_CURRENT_BINARY_DIR@/doc
+RECURSIVE              = YES
+EXCLUDE_PATTERNS       = */build/*
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HAVE_DOT               = YES
+CALLER_GRAPH           = YES
+CALL_GRAPH             = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+WARN_IF_UNDOCUMENTED   = NO
+INPUT                  = @CMAKE_CURRENT_SOURCE_DIR@

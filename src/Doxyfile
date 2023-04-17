@@ -1,0 +1,17 @@
+DOXYFILE_ENCODING      = UTF-8
+PROJECT_NAME           = "Demo-test"
+PROJECT_NUMBER         = 1.0
+PROJECT_BRIEF          = "SynaesthetiQ-Demo-Test"
+OUTPUT_DIRECTORY       = /home/ross/Documents/git/SynaesthetiQ-demo-test/src/doc
+RECURSIVE              = YES
+EXCLUDE_PATTERNS       = */build/*
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HAVE_DOT               = YES
+CALLER_GRAPH           = YES
+CALL_GRAPH             = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+WARN_IF_UNDOCUMENTED   = NO
+INPUT                  = /home/ross/Documents/git/SynaesthetiQ-demo-test/src

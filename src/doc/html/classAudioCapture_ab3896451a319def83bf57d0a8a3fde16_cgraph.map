@@ -1,0 +1,6 @@
+<map id="AudioCapture::MyCallback" name="AudioCapture::MyCallback">
+<area shape="rect" id="node1" title="Callback function used to handle audio originating from hardware." alt="" coords="5,46,200,73"/>
+<area shape="rect" id="node2" href="$classPingPongBuffer.html#a3e83626083eaf81e934b21f9de0ff94d" title="Function for adding data to the PingPongBuffer." alt="" coords="248,46,437,73"/>
+<area shape="rect" id="node3" href="$classPingPongBuffer.html#a91ed57ba227447c3501bdcf75c719f97" title="Switches current buffer out with the other, and resets its values." alt="" coords="486,5,657,47"/>
+<area shape="rect" id="node4" href="$classPingPongBuffer.html#a4f7da502016c0f826220a418793baa85" title="Calls the callback registered with the class with buffer data." alt="" coords="485,71,657,112"/>
+</map>

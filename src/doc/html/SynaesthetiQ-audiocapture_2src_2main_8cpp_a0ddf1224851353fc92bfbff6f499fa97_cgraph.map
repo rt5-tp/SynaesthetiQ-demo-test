@@ -1,0 +1,13 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,187,60,214"/>
+<area shape="rect" id="node2" href="$classFFTProcessor.html#ae110ed768d5ba0e42ac636ae3cd39185" title=" " alt="" coords="143,5,295,47"/>
+<area shape="rect" id="node3" href="$classGenreClassifier.html#ab3d2f21baf7a05e81e36f3b6ed5ddd0c" title="Callback function for predicting genre of incoming audio." alt="" coords="137,71,302,112"/>
+<area shape="rect" id="node7" href="$SynaesthetiQ-audiocapture_2src_2main_8cpp.html#ab7a400d1ffa6becd79140e7efdcaa086" title=" " alt="" coords="123,137,315,163"/>
+<area shape="rect" id="node8" href="$SynaesthetiQ-audiocapture_2src_2main_8cpp.html#a79c5441204fd2f6d4459115d4347cfe4" title=" " alt="" coords="143,187,295,214"/>
+<area shape="rect" id="node9" href="$classAudioCapture.html#adc7ce55a0c63f8723decf6fb06f68203" title="Registers callback for audio data." alt="" coords="135,239,303,280"/>
+<area shape="rect" id="node10" href="$classGenreClassifier.html#a0b4e3c5a60fe02044c25c821c6f3272c" title="Registers a callback for passing genre predictions to." alt="" coords="130,304,309,345"/>
+<area shape="rect" id="node11" href="$classFFTProcessor.html#a6213f0b5a470f393334fee8b7d81fa32" title=" " alt="" coords="108,370,331,397"/>
+<area shape="rect" id="node4" href="$GenreClassifier_8cpp.html#aaba0f06aa71db95d2fc0419517fe65d0" title=" " alt="" coords="390,27,569,54"/>
+<area shape="rect" id="node5" href="$classGenrePredictor.html#ac5f136c1e1ef35cbcef0ad8289e369ef" title=" " alt="" coords="393,78,565,105"/>
+<area shape="rect" id="node6" href="$classRawAudioWriter.html#a5ecf9fb5f520e2aa9b23b9ffdfbc0066" title=" " alt="" coords="379,129,580,155"/>
+</map>

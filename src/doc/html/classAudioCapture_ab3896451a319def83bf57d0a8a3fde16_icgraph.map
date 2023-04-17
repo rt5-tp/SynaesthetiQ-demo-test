@@ -1,0 +1,4 @@
+<map id="AudioCapture::MyCallback" name="AudioCapture::MyCallback">
+<area shape="rect" id="node1" title="Callback function used to handle audio originating from hardware." alt="" coords="260,5,455,32"/>
+<area shape="rect" id="node2" href="$classAudioCapture.html#a19c04e27f31f937ae0d062b2dc28f8d7" title="Constructor for this class." alt="" coords="5,5,212,32"/>
+</map>

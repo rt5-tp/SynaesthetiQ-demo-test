@@ -1,0 +1,5 @@
+<map id="SynaesthetiQ::setMatrixPixelColour" name="SynaesthetiQ::setMatrixPixelColour">
+<area shape="rect" id="node1" title="Sets the colour of an individual LED on the matrix using x, y coordinates." alt="" coords="5,23,216,65"/>
+<area shape="rect" id="node2" href="$classColour.html#a69d451388d92e33e6e997b4a49fbab86" title="Returns 32 bit&#45;format of order Green, Red, Blue." alt="" coords="307,5,428,32"/>
+<area shape="rect" id="node3" href="$classSynaesthetiQ.html#a18850160085e2375b55c8134ade8cc07" title=" " alt="" coords="264,56,471,83"/>
+</map>

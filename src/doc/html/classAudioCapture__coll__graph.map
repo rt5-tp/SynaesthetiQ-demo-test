@@ -1,0 +1,4 @@
+<map id="AudioCapture" name="AudioCapture">
+<area shape="rect" id="node1" title="A wrapper around the asound library for capturing and processing audio." alt="" coords="11,95,121,121"/>
+<area shape="rect" id="node2" href="$classPingPongBuffer.html" title="Special buffer calls callback when full." alt="" coords="5,5,127,32"/>
+</map>

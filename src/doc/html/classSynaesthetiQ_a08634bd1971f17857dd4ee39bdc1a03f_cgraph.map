@@ -1,0 +1,4 @@
+<map id="SynaesthetiQ::setMatrixColour" name="SynaesthetiQ::setMatrixColour">
+<area shape="rect" id="node1" title="Sets the colour of the matrix." alt="" coords="5,5,227,32"/>
+<area shape="rect" id="node2" href="$classColour.html#a69d451388d92e33e6e997b4a49fbab86" title="Returns 32 bit&#45;format of order Green, Red, Blue." alt="" coords="275,5,396,32"/>
+</map>

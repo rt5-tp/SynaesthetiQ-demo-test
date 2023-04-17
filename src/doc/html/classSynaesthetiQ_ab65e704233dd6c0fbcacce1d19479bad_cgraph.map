@@ -1,0 +1,7 @@
+<map id="SynaesthetiQ::calculateMatrixCurrent" name="SynaesthetiQ::calculateMatrixCurrent">
+<area shape="rect" id="node1" title=" " alt="" coords="5,49,224,90"/>
+<area shape="rect" id="node2" href="$classSynaesthetiQ.html#ad737340d0ab2a4adb0f6a4880ce2feb6" title=" " alt="" coords="272,56,521,83"/>
+<area shape="rect" id="node3" href="$classColour.html#ae206500d684bf5ce115e34ca83565eb6" title="Returns blue channel." alt="" coords="574,5,697,32"/>
+<area shape="rect" id="node4" href="$classColour.html#af2d77f94b1154325bd0c643fbd64b87c" title="Returns green channel." alt="" coords="569,56,701,83"/>
+<area shape="rect" id="node5" href="$classColour.html#a0bf66dd3c35d509290b5b79e1e3eb851" title="Returns red channel." alt="" coords="576,107,695,133"/>
+</map>

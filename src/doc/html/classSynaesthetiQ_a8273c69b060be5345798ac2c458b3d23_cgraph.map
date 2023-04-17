@@ -1,0 +1,14 @@
+<map id="SynaesthetiQ::render" name="SynaesthetiQ::render">
+<area shape="rect" id="node1" title="Updates the SynasthetiQ with the colours set, while limiting current." alt="" coords="5,117,164,144"/>
+<area shape="rect" id="node2" href="$classSynaesthetiQ.html#ab9e05d4bc66b1c9fba2ac6750569f91d" title=" " alt="" coords="212,51,401,93"/>
+<area shape="rect" id="node11" href="$ws2811_8h.html#ac420154e431984410aa2c1a92c845516" title=" " alt="" coords="215,117,398,144"/>
+<area shape="rect" id="node12" href="$ws2811_8h.html#a023b694aa905559b6ed2b18b859d8da3" title=" " alt="" coords="246,168,367,195"/>
+<area shape="rect" id="node3" href="$classSynaesthetiQ.html#a46066721d0b214e51b094658530735a7" title=" " alt="" coords="463,85,655,126"/>
+<area shape="rect" id="node9" href="$classSynaesthetiQ.html#ab65e704233dd6c0fbcacce1d19479bad" title=" " alt="" coords="449,19,668,61"/>
+<area shape="rect" id="node4" href="$classSynaesthetiQ.html#ab70dbc1ff675a562a04640ff246131e0" title=" " alt="" coords="745,78,937,119"/>
+<area shape="rect" id="node8" href="$classColour.html#a69d451388d92e33e6e997b4a49fbab86" title="Returns 32 bit&#45;format of order Green, Red, Blue." alt="" coords="780,144,901,171"/>
+<area shape="rect" id="node5" href="$classColour.html#ae206500d684bf5ce115e34ca83565eb6" title="Returns blue channel." alt="" coords="1018,5,1141,32"/>
+<area shape="rect" id="node6" href="$classColour.html#af2d77f94b1154325bd0c643fbd64b87c" title="Returns green channel." alt="" coords="1013,56,1145,83"/>
+<area shape="rect" id="node7" href="$classColour.html#a0bf66dd3c35d509290b5b79e1e3eb851" title="Returns red channel." alt="" coords="1020,107,1139,133"/>
+<area shape="rect" id="node10" href="$classSynaesthetiQ.html#ad737340d0ab2a4adb0f6a4880ce2feb6" title=" " alt="" coords="716,27,965,53"/>
+</map>

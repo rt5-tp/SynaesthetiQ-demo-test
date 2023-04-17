@@ -1,0 +1,10 @@
+<map id="Visualiser::Visualiser" name="Visualiser::Visualiser">
+<area shape="rect" id="node1" title=" " alt="" coords="5,202,164,229"/>
+<area shape="rect" id="node2" href="$classEnvelopeFollower.html#a4dc1594c17f508244f84cd873b9c8c96" title=" " alt="" coords="233,5,414,47"/>
+<area shape="rect" id="node3" href="$classFFTProcessor.html#ae110ed768d5ba0e42ac636ae3cd39185" title=" " alt="" coords="247,71,399,112"/>
+<area shape="rect" id="node4" href="$classVisualiser.html#a34fca5ddfdc76444856308a63442ff1d" title=" " alt="" coords="246,136,401,177"/>
+<area shape="rect" id="node5" href="$classVisualiser.html#aaf83b937b1524b0e601c6309596c8686" title=" " alt="" coords="239,202,408,229"/>
+<area shape="rect" id="node6" href="$classAudioCapture.html#adc7ce55a0c63f8723decf6fb06f68203" title="Registers callback for audio data." alt="" coords="239,253,407,295"/>
+<area shape="rect" id="node7" href="$classFFTProcessor.html#a6213f0b5a470f393334fee8b7d81fa32" title=" " alt="" coords="212,319,435,346"/>
+<area shape="rect" id="node8" href="$classEnvelopeFollower.html#af6781686d216fa0ba4072e04ba6eec24" title=" " alt="" coords="226,371,421,412"/>
+</map>

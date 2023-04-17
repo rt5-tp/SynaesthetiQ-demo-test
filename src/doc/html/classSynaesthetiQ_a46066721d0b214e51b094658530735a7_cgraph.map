@@ -1,0 +1,8 @@
+<map id="SynaesthetiQ::applyFactorToMatrix" name="SynaesthetiQ::applyFactorToMatrix">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,197,119"/>
+<area shape="rect" id="node2" href="$classSynaesthetiQ.html#ab70dbc1ff675a562a04640ff246131e0" title=" " alt="" coords="245,49,437,90"/>
+<area shape="rect" id="node6" href="$classColour.html#a69d451388d92e33e6e997b4a49fbab86" title="Returns 32 bit&#45;format of order Green, Red, Blue." alt="" coords="281,115,402,141"/>
+<area shape="rect" id="node3" href="$classColour.html#ae206500d684bf5ce115e34ca83565eb6" title="Returns blue channel." alt="" coords="490,5,613,32"/>
+<area shape="rect" id="node4" href="$classColour.html#af2d77f94b1154325bd0c643fbd64b87c" title="Returns green channel." alt="" coords="485,56,617,83"/>
+<area shape="rect" id="node5" href="$classColour.html#a0bf66dd3c35d509290b5b79e1e3eb851" title="Returns red channel." alt="" coords="492,107,611,133"/>
+</map>

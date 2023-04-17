@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['m_2169',['m',['../classdetail_1_1exception.html#a6f86cee7b7a4938d4d758036dc4deed9',1,'detail::exception']]],
+  ['m_5fcompare_2170',['m_compare',['../structordered__map.html#ac743dcd50e67a69a69a422769df1d820',1,'ordered_map']]],
+  ['m_5fdata_2171',['m_data',['../classbasic__json.html#a4f7fd3c3afd2abb77797652506ab6bc0',1,'basic_json']]],
+  ['m_5ffile_2172',['m_file',['../classdetail_1_1file__input__adapter.html#a7197e796639689e25720df7be0c77621',1,'detail::file_input_adapter']]],
+  ['m_5fhas_5fsubtype_2173',['m_has_subtype',['../classbyte__container__with__subtype.html#ad134bcb2226d949a4b40b43cfbd6d63f',1,'byte_container_with_subtype']]],
+  ['m_5fit_2174',['m_it',['../classdetail_1_1iter__impl.html#a79b7b8c6b778d9f7e76b086b45d9ea2e',1,'detail::iter_impl']]],
+  ['m_5flexer_2175',['m_lexer',['../classdetail_1_1parser.html#a9e00bbaea167a7c7c4e6cb7b5b6ebba6',1,'detail::parser']]],
+  ['m_5fsubtype_2176',['m_subtype',['../classbyte__container__with__subtype.html#a94874c7df81726e0d88c5d4d2a3e3adf',1,'byte_container_with_subtype']]],
+  ['m_5fvalue_2177',['m_value',['../classbasic__json.html#acd0f167153f047a246b51858d7c921b8',1,'basic_json']]],
+  ['matrix_2178',['matrix',['../SynaesthetiQ-LED-Library_2src_2main_8cpp.html#a4d8291339f6fcbafba4f00c86e1257a9',1,'main.cpp']]],
+  ['matrixpixelcurrentperchannel_2179',['matrixPixelCurrentPerChannel',['../classSynaesthetiQ.html#a3caeaab07d890c18e3dafe17c28da7b5',1,'SynaesthetiQ']]],
+  ['matrixpixels_2180',['matrixPixels',['../classSynaesthetiQ.html#acb56e98dd3d48604359be7f234d37d8c',1,'SynaesthetiQ']]],
+  ['maxbigledcurrent_2181',['maxBigLEDCurrent',['../classSynaesthetiQ.html#a1688ccd8a4579affbab4df98710305f1',1,'SynaesthetiQ']]],
+  ['maxmatrixcurrent_2182',['maxMatrixCurrent',['../classSynaesthetiQ.html#a5696357e1e63bc55019293277c674261',1,'SynaesthetiQ']]],
+  ['minus_2183',['minus',['../structdetail_1_1dtoa__impl_1_1boundaries.html#aa3b1c7a566175a9ca2f23875dbbbccc4',1,'detail::dtoa_impl::boundaries']]],
+  ['mtx_2184',['mtx',['../classFFTProcessor.html#a9ed236893631683e27638dbf53c07055',1,'FFTProcessor']]]
+];

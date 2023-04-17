@@ -1,0 +1,6 @@
+<map id="SynaesthetiQ::calculateLEDCurrent" name="SynaesthetiQ::calculateLEDCurrent">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,255,83"/>
+<area shape="rect" id="node2" href="$classColour.html#ae206500d684bf5ce115e34ca83565eb6" title="Returns blue channel." alt="" coords="307,5,430,32"/>
+<area shape="rect" id="node3" href="$classColour.html#af2d77f94b1154325bd0c643fbd64b87c" title="Returns green channel." alt="" coords="303,56,435,83"/>
+<area shape="rect" id="node4" href="$classColour.html#a0bf66dd3c35d509290b5b79e1e3eb851" title="Returns red channel." alt="" coords="309,107,428,133"/>
+</map>
