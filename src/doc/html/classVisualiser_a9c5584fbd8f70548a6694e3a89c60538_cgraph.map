@@ -1,12 +1,12 @@
 <map id="Visualiser::Visualiser" name="Visualiser::Visualiser">
 <area shape="rect" id="node1" title=" " alt="" coords="5,253,164,279"/>
-<area shape="rect" id="node2" href="$classEnvelopeFollower.html#a4dc1594c17f508244f84cd873b9c8c96" title=" " alt="" coords="245,5,426,47"/>
+<area shape="rect" id="node2" href="$classEnvelopeFollower.html#a4dc1594c17f508244f84cd873b9c8c96" title="Carries out the envelope follower process." alt="" coords="245,5,426,47"/>
 <area shape="rect" id="node3" href="$classFFTProcessor.html#ae110ed768d5ba0e42ac636ae3cd39185" title="Callback function to receive audio data." alt="" coords="259,71,411,112"/>
 <area shape="rect" id="node4" href="$classVisualiser.html#a34fca5ddfdc76444856308a63442ff1d" title=" " alt="" coords="258,136,413,177"/>
 <area shape="rect" id="node5" href="$classVisualiser.html#aaf83b937b1524b0e601c6309596c8686" title=" " alt="" coords="251,202,420,229"/>
 <area shape="rect" id="node6" href="$classVisualiser.html#a8dd45f6c2c484eac9f1e63b2153f1b75" title=" " alt="" coords="238,253,433,279"/>
 <area shape="rect" id="node7" href="$classAudioCapture.html#adc7ce55a0c63f8723decf6fb06f68203" title="Registers callback for audio data." alt="" coords="251,304,419,345"/>
 <area shape="rect" id="node8" href="$classFFTProcessor.html#a6213f0b5a470f393334fee8b7d81fa32" title="Registers a callback function for FFT data availability." alt="" coords="224,370,447,397"/>
-<area shape="rect" id="node9" href="$classEnvelopeFollower.html#af6781686d216fa0ba4072e04ba6eec24" title=" " alt="" coords="238,421,433,463"/>
+<area shape="rect" id="node9" href="$classEnvelopeFollower.html#af6781686d216fa0ba4072e04ba6eec24" title="Callback to send ouput data to next process." alt="" coords="238,421,433,463"/>
 <area shape="rect" id="node10" href="$classFFTProcessor.html#a51c619247da8fddd752632485d8bd10a" title="Registers a callback function for LED matrix data availability." alt="" coords="212,487,459,514"/>
 </map>

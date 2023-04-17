@@ -74,28 +74,35 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>A simple envelope follower .  
+ <a href="classEnvelopeFollower.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="EnvelopeFollower_8hpp_source.html">EnvelopeFollower.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for EnvelopeFollower:</div>
 <div class="dyncontent">
 <div class="center"><img src="classEnvelopeFollower__coll__graph.png" border="0" usemap="#aEnvelopeFollower_coll__map" alt="Collaboration graph"/></div>
 <map name="aEnvelopeFollower_coll__map" id="aEnvelopeFollower_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,143,32"/>
+<area shape="rect" title="A simple envelope follower ." alt="" coords="5,5,143,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4ba7f4c09fca3f2c42c0ff3de46c59c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEnvelopeFollower.html#a4ba7f4c09fca3f2c42c0ff3de46c59c2">EnvelopeFollower</a> (int <a class="el" href="classEnvelopeFollower.html#ab3edc0d6a7ed3f8688861358d9df12a1">fs</a>, int <a class="el" href="classEnvelopeFollower.html#afbd1587f939acc1f89eaf449f9fbc3d9">fc</a>)</td></tr>
+<tr class="memdesc:a4ba7f4c09fca3f2c42c0ff3de46c59c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Envelope Follower constructor.  <a href="classEnvelopeFollower.html#a4ba7f4c09fca3f2c42c0ff3de46c59c2">More...</a><br /></td></tr>
 <tr class="separator:a4ba7f4c09fca3f2c42c0ff3de46c59c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9af86e476cf046847f8022c6949d328b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEnvelopeFollower.html#a9af86e476cf046847f8022c6949d328b">~EnvelopeFollower</a> ()</td></tr>
+<tr class="memdesc:a9af86e476cf046847f8022c6949d328b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Envelope Follower destructor.  <a href="classEnvelopeFollower.html#a9af86e476cf046847f8022c6949d328b">More...</a><br /></td></tr>
 <tr class="separator:a9af86e476cf046847f8022c6949d328b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6781686d216fa0ba4072e04ba6eec24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEnvelopeFollower.html#af6781686d216fa0ba4072e04ba6eec24">registerCallback</a> (<a class="el" href="EnvelopeFollower_8hpp.html#a1c42b5499c368e2502e2ea503413e640">DataProcessed</a> cb)</td></tr>
+<tr class="memdesc:af6781686d216fa0ba4072e04ba6eec24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback to send ouput data to next process.  <a href="classEnvelopeFollower.html#af6781686d216fa0ba4072e04ba6eec24">More...</a><br /></td></tr>
 <tr class="separator:af6781686d216fa0ba4072e04ba6eec24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4dc1594c17f508244f84cd873b9c8c96"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEnvelopeFollower.html#a4dc1594c17f508244f84cd873b9c8c96">audio_callback</a> (const std::vector&lt; short &gt; &amp;buffer)</td></tr>
+<tr class="memdesc:a4dc1594c17f508244f84cd873b9c8c96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carries out the envelope follower process.  <a href="classEnvelopeFollower.html#a4dc1594c17f508244f84cd873b9c8c96">More...</a><br /></td></tr>
 <tr class="separator:a4dc1594c17f508244f84cd873b9c8c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -112,9 +119,12 @@ Private Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a555a5a6b0709f9cc2773f38a8496c695"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classEnvelopeFollower.html">EnvelopeFollower</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEnvelopeFollower.html#a555a5a6b0709f9cc2773f38a8496c695">singleton</a></td></tr>
+<tr class="memdesc:a555a5a6b0709f9cc2773f38a8496c695"><td class="mdescLeft">&#160;</td><td class="mdescRight">The envelope follower is a singleton.  <a href="classEnvelopeFollower.html#a555a5a6b0709f9cc2773f38a8496c695">More...</a><br /></td></tr>
 <tr class="separator:a555a5a6b0709f9cc2773f38a8496c695"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A simple envelope follower . </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4ba7f4c09fca3f2c42c0ff3de46c59c2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ba7f4c09fca3f2c42c0ff3de46c59c2">&#9670;&nbsp;</a></span>EnvelopeFollower()</h2>
 
@@ -141,6 +151,10 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Envelope Follower constructor. </p>
+<p>This instantiates an IIR filter, which will be used in the main process.</p>
+<p><em>fs</em> - audio sample rate (required) <em>fc</em> - lowpass filter cut-off frequency (optional, default=10) </p>
+
 </div>
 </div>
 <a id="a9af86e476cf046847f8022c6949d328b"></a>
@@ -157,6 +171,8 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Envelope Follower destructor. </p>
 
 </div>
 </div>
@@ -184,12 +200,15 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Carries out the envelope follower process. </p>
+<p>Triggered by data being available from audio capture. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classEnvelopeFollower_a4dc1594c17f508244f84cd873b9c8c96_icgraph.png" border="0" usemap="#aclassEnvelopeFollower_a4dc1594c17f508244f84cd873b9c8c96_icgraph" alt=""/></div>
 <map name="aclassEnvelopeFollower_a4dc1594c17f508244f84cd873b9c8c96_icgraph" id="aclassEnvelopeFollower_a4dc1594c17f508244f84cd873b9c8c96_icgraph">
-<area shape="rect" title=" " alt="" coords="212,23,393,65"/>
+<area shape="rect" title="Carries out the envelope follower process." alt="" coords="212,23,393,65"/>
 <area shape="rect" href="test_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="57,5,112,32"/>
 <area shape="rect" href="classVisualiser.html#a9c5584fbd8f70548a6694e3a89c60538" title=" " alt="" coords="5,56,164,83"/>
 </map>
@@ -212,12 +231,14 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Callback to send ouput data to next process. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classEnvelopeFollower_af6781686d216fa0ba4072e04ba6eec24_icgraph.png" border="0" usemap="#aclassEnvelopeFollower_af6781686d216fa0ba4072e04ba6eec24_icgraph" alt=""/></div>
 <map name="aclassEnvelopeFollower_af6781686d216fa0ba4072e04ba6eec24_icgraph" id="aclassEnvelopeFollower_af6781686d216fa0ba4072e04ba6eec24_icgraph">
-<area shape="rect" title=" " alt="" coords="212,23,407,65"/>
+<area shape="rect" title="Callback to send ouput data to next process." alt="" coords="212,23,407,65"/>
 <area shape="rect" href="test_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="57,5,112,32"/>
 <area shape="rect" href="classVisualiser.html#a9c5584fbd8f70548a6694e3a89c60538" title=" " alt="" coords="5,56,164,83"/>
 </map>
@@ -333,6 +354,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The envelope follower is a singleton. </p>
 
 </div>
 </div>

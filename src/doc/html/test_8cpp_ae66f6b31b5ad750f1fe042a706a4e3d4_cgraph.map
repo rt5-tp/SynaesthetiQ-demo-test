@@ -1,10 +1,10 @@
 <map id="main" name="main">
 <area shape="rect" id="node1" title=" " alt="" coords="5,189,60,215"/>
-<area shape="rect" id="node2" href="$classEnvelopeFollower.html#a4dc1594c17f508244f84cd873b9c8c96" title=" " alt="" coords="117,5,298,47"/>
+<area shape="rect" id="node2" href="$classEnvelopeFollower.html#a4dc1594c17f508244f84cd873b9c8c96" title="Carries out the envelope follower process." alt="" coords="117,5,298,47"/>
 <area shape="rect" id="node3" href="$test_8cpp.html#abed7129f05646f7979b0262b1d2d5ddb" title=" " alt="" coords="158,71,257,98"/>
 <area shape="rect" id="node4" href="$classAudioFile.html#ae1b5b4b7351a79dbf810bb34ede496b9" title=" " alt="" coords="108,123,307,164"/>
 <area shape="rect" id="node5" href="$classAudioFile.html#a8cd1b082af9db6bd180e4a63edcdefc9" title=" " alt="" coords="112,189,303,215"/>
 <area shape="rect" id="node6" href="$classAudioFile.html#a0ff16123b519a4665e9f3e7d341f0a26" title=" " alt="" coords="148,239,267,266"/>
-<area shape="rect" id="node7" href="$classEnvelopeFollower.html#af6781686d216fa0ba4072e04ba6eec24" title=" " alt="" coords="110,291,305,332"/>
+<area shape="rect" id="node7" href="$classEnvelopeFollower.html#af6781686d216fa0ba4072e04ba6eec24" title="Callback to send ouput data to next process." alt="" coords="110,291,305,332"/>
 <area shape="rect" id="node8" href="$test_8cpp.html#a7dcd89d095ae296e8b7c69021c733616" title=" " alt="" coords="158,357,257,383"/>
 </map>
